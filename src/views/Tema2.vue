@@ -101,10 +101,9 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img9.svg', alt='')
+                    
                   .col-lg-8
-                    h4 Recoleccion de datos              
+                    
                 p Se inicia con la recopilación de los datoscomo materia prima para la creación de los modelos de #[em machine learning]
 
           .tarjeta.p-3(x="33%" y="48%" numero=" ")
@@ -112,10 +111,8 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
+                    
                   .col-lg-8
-                    h4 Preprocesamiento de información
                 p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogeneos, entre otros. Tambien se llama fase de limpieza de datos.
           
           .tarjeta.p-3(x="50%" y="36%" numero=" ")
@@ -134,10 +131,8 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
+                    
                   .col-lg-8
-                    h4 Evaluación del modelo
                 p En esta fasese se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a traves de métricas como exactitud y la precisión.
           
           .tarjeta.p-3(x="74%" y="73%" numero=" ")
@@ -145,10 +140,8 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img13.svg', alt='')
+                    
                   .col-lg-8
-                    h4 Implementación
                 p Fasel final del #[em Machine Learning], donde el modelo se envía a producción previo a pruebas de calidad.
 
     separador
@@ -183,7 +176,7 @@
                           span #[em Ejemplo de un Algoritmo de Regresión]
                     figure
                       img(src='@/assets/curso/temas/tema2/img17.svg', alt='' )
-                p Casos de uso: los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios; evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en #[em MGoogle colab], donde se requiere predecir el costo de un incidente de ciberseguridad con base en los equipos que fueron afectados:
+                p Casos de uso: los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios; evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en #[em Google colab], donde se requiere predecir el costo de un incidente de ciberseguridad con base en los equipos que fueron afectados:
                 
                 .row.justify-content-center
                   .col-lg-12
@@ -198,7 +191,7 @@
                             .col.mb-3.mb-sm-0
                               .row.justify-content-center.mb-1
                                 .col
-                                  a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                                  a.boton.boton--b(:href="obtenerLink('/downloads/Anexo_01_Regresion.pdf')" target="_blank")
                                     span(style="color:#000000")  Descargar
                                     i.fas.fa-download(style="color:#000000")
 
@@ -218,8 +211,8 @@
                           span #[em Ejemplo de un Algoritmo de Clasificación]
                     figure
                       img(src='@/assets/curso/temas/tema2/img18.svg', alt='' )
-                p Casos de usos: los algoritmos de clasificación pueden utilizarse con éxito en los siguientes escenarios; clasificar mensajes maliciosos en correos electrónicos, detectar fraudes, analizar sentimientos basados en una publicación en redes sociales, realizar búsqueda de documentos similares, detectar el lenguaje de un documento o página web, entre otros.
-                p Para profundizar en la implementación de un modelo de clasificación, se plantea un ejercicio desarrollado en Google colab, donde se requiere predecir si un correo es o no un spam.
+                p Casos de usos: los algoritmos de clasificación pueden utilizarse con éxito en los siguientes escenarios; clasificar mensajes maliciosos en correos electrónicos, detectar fraudes, analizar sentimientos basados en una publicación en redes sociales, realizar búsqueda de documentos similares, detectar el lenguaje de un documento o página #[em web], entre otros.
+                p Para profundizar en la implementación de un modelo de clasificación, se plantea un ejercicio desarrollado en #[em Google colab], donde se requiere predecir si un correo es o no un #[em spam].
                 
                 .row.justify-content-center
                   .col-lg-12
@@ -234,7 +227,7 @@
                             .col.mb-3.mb-sm-0
                               .row.justify-content-center.mb-1
                                 .col
-                                  a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                                  a.boton.boton--b(:href="obtenerLink('/downloads/Anexo_02_Clasificacion.pdf')" target="_blank")
                                     span(style="color:#000000")  Descargar
                                     i.fas.fa-download(style="color:#000000")
                
@@ -255,7 +248,7 @@
             |En soluciones avanzadas de visión computarizada, para la detección por ejemplo de delincuentes en un aeropuerto.
           li
             i.fas.fa-check(style="color:#FECA2E")
-            |En sistemas de recomendación como el usado por Netflix, donde pueden predecir si a un determinado usuario le gustará una nueva película o serie.
+            |En sistemas de recomendación como el usado por #[em Netflix], donde pueden predecir si a un determinado usuario le gustará una nueva película o serie.
 
         p En el campo de la medicina para la detección de patrones en los datos genéticos que ayudan en el diagnóstico de enfermedades.
 
@@ -297,7 +290,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p El algoritmo elige el valor de K y los datos de entrenamiento que han sido previamente clasificados en distintas categorías con sus respectivas etiquetas, posteriormente toma cada registro que no ha sido etiquetado de los datos de prueba o testeo e identifica cuales son los datos de entrenamiento (los etiquetados) que se encuentran “más cercanos” y que tengan las mismas similitudes, para finalmente asignar una etiqueta.
+        p El algoritmo elige el valor de K y los datos de entrenamiento que han sido previamente clasificados en distintas categorías con sus respectivas etiquetas, posteriormente toma cada registro que no ha sido etiquetado de los datos de prueba o testeo e identifica cuáles son los datos de entrenamiento (los etiquetados) que se encuentran “más cercanos” y que tengan las mismas similitudes, para finalmente asignar una etiqueta.
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
             .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
@@ -451,10 +444,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img9.svg', alt='')
                   .col-lg-8
-                    h4 PLANTEAR LA IDEA
                   p Iniciar el árbol de desición con una idea principal que se representa con un nodo root.
           
           .tarjeta.p-3(x="31%" y="58%" numero=" ")            
@@ -462,10 +452,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
                   .col-lg-8
-                    h4 AGREGAR NODOS
                   p Agregar nodos de oportuniodades o de decisiones luego de cada decisión.
           
           .tarjeta.p-3(x="50%" y="58%" numero=" ")            
@@ -473,10 +460,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
                   .col-lg-8
-                    h4 EXPANDIR DIAGRAMAS
                   p Continuear agregando nodos de oportunidades y de decisiones al árbol hasta que hayas abarcado todas las decisiones y resultados posibles.
           
           .tarjeta.p-3(x="68%" y="58%" numero=" ")            
@@ -484,10 +468,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
                   .col-lg-8
-                    h4 CALCULAR VALORES
                   p Incluir datos cuantitativos. Los datos que se usan con más frecuencia en los árboles de decisiones son numéricos.
           
           .tarjeta.p-3(x="87%" y="58%" numero=" ")            
@@ -495,10 +476,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
                   .col-lg-8
-                    h4 EVALUAR RESULTADOS
                   p Aceptar o declinar la decisión deacuerdo a los resultados del algoritmo.
 
     separador
@@ -509,15 +487,15 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El algoritmo #[em Clustering] o de agrupamiento, es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[em clusters]. Los objetos o datos que contienen los #[em clusters] comparten atributos similares entre sí pero distintos a los datos de otros clusters.
+        p(data-aos="fade-right") El algoritmo #[em Clustering] o de agrupamiento, es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[em clusters]. Los objetos o datos que contienen los #[em clusters] comparten atributos similares entre sí pero distintos a los datos de otros #[em clusters].
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        h3 Algoritmo #[em clusterin]        
+        h3 Algoritmo #[em clustering]        
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-right") Esta técnica también se denomina “segmentación” y es utilizada para hallar atributos que son implícitos en los datos, es decir encuentran etiquetas parecidas entre los miembros del cluster y a su vez delimitan la distancia con otros #[em clusters].
+        p(data-aos="fade-right") Esta técnica también se denomina “segmentación” y es utilizada para hallar atributos que son implícitos en los datos, es decir encuentran etiquetas parecidas entre los miembros del #[em cluster] y a su vez delimitan la distancia con otros #[em clusters].
         p(data-aos="fade-right") Un ejemplo clásico para la aplicación de la técnica de agrupamiento son los comercios en línea,  estos podrían estudiar a los clientes que realizan compras en una época del año y establecer sus preferencias. Con la aplicación de un algoritmo de #[em clustering] se puede segmentar a los clientes en grupos de acuerdo con las predicciones y tomar decisiones sobre los productos que se deben ofrecer y aplicarles las respectivas promociones o descuentos.
       .col-lg-5
         figure
@@ -639,11 +617,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p Para afianzar los conocimientos en Machine learning, descargar los siguientes archivos de códigos. 
+                  p Para afianzar los conocimientos en #[em Machine learning], descargar los siguientes archivos de códigos. 
                 .col.mb-3.mb-sm-0
                   .row.justify-content-center.mb-1
                     .col
-                      a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.boton--b(:href="('/downloads/codigo.rar')" target="_blank")
                         span(style="color:#000000")  Descargar
                         i.fas.fa-download(style="color:#000000")
 </template>

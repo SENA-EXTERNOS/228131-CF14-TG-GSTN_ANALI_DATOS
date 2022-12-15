@@ -4,7 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     p En el siguiente mapa podrá apreciar un resumen de los temas trabajados con los conceptos básicos de #[em Data science]:
-
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 16
+      br
+      span #[em Mapa mental - Data science]
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

@@ -204,7 +204,7 @@ export default {
     {
       termino: 'Aprendizaje no Supervisado',
       significado:
-        'se usa cuando por la cantidad de datos o su complejidad, las herramientas de <em>hardware</em> y <em>software</em> tradicionales no son capaces de almacenar y/o procesar dichos datos en un tiempo razonable.',
+        'el aprendizaje no supervisado es una categoría del <em>Machine learning</em> que encuentra o infiere por sí mismo estructuras y patrones en los datos sin que ellos estén etiquetados, clasificados y categorizados.',
     },
     {
       termino: 'Aprendizaje Supervisado',
@@ -229,12 +229,12 @@ export default {
     {
       termino: 'Modelos de clasificación',
       significado:
-        'son un tipo de aprendizaje inductivo que predicen valores numéricos a partir de un dominio suministrado de atributos con valores continuos que se podrán describir a través de una función hipótesis para la predicción de eventos futuros.',
+        'dividen los datos en propiedades que se conocen de antemano.',
     },
     {
       termino: 'Modelos de regresión',
       significado:
-        'inteligencia artificial - Es la simulación de procesos de inteligencia humana por parte de máquinas.',
+        'son un tipo de aprendizaje inductivo que predicen valores numéricos a partir de un dominio suministrado de atributos con valores continuos que se podrán describir a través de una función hipótesis para la predicción de eventos futuros.',
     },
     {
       termino: '<em>Numpy</em>',

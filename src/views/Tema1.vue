@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='')
       .col-xl-8
-        p(data-aos="fade-down") #[em Machine learning] es el proceso por el cual las maquinas “aprenden” con base en los datos o información previamente suministrada. Esto, a diferencia de la programación tradicional en donde las instrucciones son específicas y dependen del tipo de problemática a resolver; en el #[ machine learning], se desarrollan algoritmos generales que tienen la capacidad de obtener patrones aplicables a distintos tipos de datos.                 
+        p(data-aos="fade-down") #[em Machine learning] es el proceso por el cual las maquinas “aprenden” con base en los datos o información previamente suministrada. Esto, a diferencia de la programación tradicional en donde las instrucciones son específicas y dependen del tipo de problemática a resolver; en el #[em machine learning], se desarrollan algoritmos generales que tienen la capacidad de obtener patrones aplicables a distintos tipos de datos.                 
         p(data-aos="fade-right") Por lo tanto, una aplicación de #[em machine learning] que está diseñada, por ejemplo, para realizar una clasificación de fotos de números aleatorios, podría también utilizarse para clasificar imágenes de señales de tránsito. Debido a que ambas problemáticas se resuelven con un algoritmo de clasificación de datos etiquetados (Bobadilla, 2020).
         
     .row.justify-content-center.align-items-center.mb-5
@@ -199,7 +199,7 @@
                         img(src='@/assets/curso/temas/tema1/img8_3.svg', alt='' )
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[em Arange]: esta función de numpy es utilizada para retornar un arreglo con números enteros que estén en un intervalo, donde el primer parámetro indica el inicio con valores mayores o iguales (>=) y el segundo parámetro el final, con valores menores (<).
+                    |#[em Arange]: esta función de #[em numpy] es utilizada para retornar un arreglo con números enteros que estén en un intervalo, donde el primer parámetro indica el inicio con valores mayores o iguales (>=) y el segundo parámetro el final, con valores menores (<).
                   .row.align-items-center.mb-3                                  
                     .col-lg-4(style="background-color:#ffffff")
                       figure
@@ -215,55 +215,55 @@
     .row
       .col-xl-12       
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.2	 #[i Pandas ]
+      h2.my-5 1.2	 #[em Pandas ]
 
     .row.justify-content-center.mb-5
       .col-xl-4
         figure
           img(src='@/assets/curso/temas/tema1/img9.png', alt='')
       .col-xl-8
-        p(data-aos="fade-down") Pandas es una librería de #[em Python] experta en la manipulación y análisis de datos. Además, ofrece visualizaciones que permiten simplificar la estadística descriptiva mediante la aplicación de funciones simples; esta capacidad minimiza el esfuerzo en el análisis exploratorio de los datos al igual que la exhibición de los resultados. (Toro, 2022).
+        p(data-aos="fade-down") #[em Pandas] es una librería de #[em Python] experta en la manipulación y análisis de datos. Además, ofrece visualizaciones que permiten simplificar la estadística descriptiva mediante la aplicación de funciones simples; esta capacidad minimiza el esfuerzo en el análisis exploratorio de los datos al igual que la exhibición de los resultados. (Toro, 2022).
 
         p(data-aos="fade-down") Beneficios de usar pandas:
         ul.lista-ul
-          li
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Capacidad de sacar provecho de métodos nativos para manipular datos faltantes.
 
-          li
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Uso simple para describir y clasificar datos.
           
-          li
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Creación rápida de gráficos.
           
-          li
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Manejo eficiente de imágenes a través de indexación booleana.
           
-          li
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Posibilidad para trabajar con muchos tipos de datos: enteros, cadenas de textos, números decimales, objetos, entre otros.
 
-          li(style="display:block")
-            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
+          li(style="display:flex")
+            i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;")
             |Fácil integración con la librería #[em Numpy].
     
     .bg--img_03.mb-5
       .row.justify-content-center
         .col-lg-10
           AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta ca-ab")
-            .row.justify-content-center.mb-4(titulo="Clases de datos en pandas")
+            .row.justify-content-center.mb-4(titulo="Clases de datos en <em>pandas</em>")
               .col-2
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.svg', alt='' )
               .col-10
-                p Pandas soporta varias arquitecturas de datos entre las que se destacan las series y los Dataframes. A continuación, se detalla cada una de ellas:
+                p #[em Pandas] soporta varias arquitecturas de datos entre las que se destacan las series y los #[em Dataframes]. A continuación, se detalla cada una de ellas:
                 ul.lista-ul
                   li
-                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[b Series]:una serie es un objeto similar a un array de una dimensión que permite varias formas para la indexación de datos del mismo tipo. (Toro, 2022).
+                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:-2px")
+                    |#[b Series]: una serie es un objeto similar a un #[em array] de una dimensión que permite varias formas para la indexación de datos del mismo tipo. (Toro, 2022).
                 p Las series tienen un tamaño fijo que no se puede modificar; sin embargo, su contenido puede ser actualizado a través del índice que identifica a cada elemento dentro de la serie.
                 p En la siguiente figura se muestra una serie que contiene algunas competencias para el análisis de datos:
                 .row.justify-content-center.align-items-center.md-5
@@ -286,7 +286,7 @@
                 ul.lista-ul
                   li(style="display:inline-block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[b Creación de series con listas]: en este tipo de series se retorna un objeto con los elementos de la lista. La sintaxis es: pandas.Series(data, índice, tipo). Los parámetros, índices y tipo son opcionales; en caso de no pasarlos a la función está crea el índice por defecto e infiere el tipo de datos.                  
+                    |#[b Creación de series con listas]: en este tipo de series se retorna un objeto con los elementos de la lista. La sintaxis es: #[em pandas]. Series(#[em data, índice, tipo]). Los parámetros, índices y tipo son opcionales; en caso de no pasarlos a la función está crea el índice por defecto e infiere el tipo de datos.                  
                 p En el siguiente ejemplo se crea una serie a partir de una lista:
                   .row.align-items-center.mb-3                                  
                     .col-lg-10(style="background-color:#ffffff")
@@ -299,10 +299,13 @@
                   li(style="display:inline-block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
                     |#[b Creación de series con diccionarios]: este tipo de series retornan un objeto con los elementos del diccionario y las filas que se le ingresan como índices. La sintaxis es: pandas.Series(diccionario, índice). El parámetro índice es opcional; si no se pasa a la función, se emplean como índice los valores del diccionario:
-                  .row.align-items-center.mb-3                                  
+                  .row.align-items-center.mb-5
                     .col-lg-10(style="background-color:#ffffff")
                       figure
                         img(src='@/assets/curso/temas/tema1/img17.png', alt='' )
+                  .row.justify-content-center.align-items-center.mb-5
+                    .col-lg-12
+                     p La salida indica que los índices son las descripciones y los datos son los valores numéricos.
                 
 
             .row.justify-content-center.mb-4(titulo="<em>Dataframe</em>")
@@ -310,7 +313,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img12.svg', alt='' )
               .col-10
-                p Los Dataframe son objetos de estructuras de datos similares a una tabla, donde las columnas corresponden a elementos de un mismo tipo y las filas son registros que pueden contener distintos tipos de datos.
+                p Los #[em Dataframe] son objetos de estructuras de datos similares a una tabla, donde las columnas corresponden a elementos de un mismo tipo y las filas son registros que pueden contener distintos tipos de datos.
 
                 p Los #[em Dataframes] poseen dos índices; uno para las columnas y otro para las filas. El acceso a los datos se puede realizar a través de estos. 
 
@@ -368,7 +371,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img14.svg', alt='' )
               .col-10
-                p Para la manipulación de los Dataframes se realiza a través de métodos o propiedades:
+                p Para la manipulación de los #[em Dataframes] se realiza a través de métodos o propiedades:
                 ul.lista-ul
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
@@ -378,7 +381,7 @@
                     |#[b shape]: retorna el número de filas y columnas.
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
-                    |#[b size]: Retorna la cantidad de elementos del #[em dataframe].
+                    |#[b size]: retorna la cantidad de elementos del #[em dataframe].
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
                     |#[b columns]: retorna el nombre de las columnas del #[em dataframe].
@@ -462,7 +465,7 @@
           img(src='@/assets/curso/temas/tema1/img25.png', alt='' )
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p En el siguiente ejemplo se encuentra la creación de un gráfico con la librería Matplotlib y el módulo pyplot. Para ello, se crearán dos variables (x, y), a las que posteriormente se les asignan valores y finalmente se mostrará la gráfica resultante:
+        p En el siguiente ejemplo se encuentra la creación de un gráfico con la librería #[em Matplotlib] y el módulo #[em pyplot]. Para ello, se crearán dos variables (x, y), a las que posteriormente se les asignan valores y finalmente se mostrará la gráfica resultante:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -523,7 +526,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img31.png', alt='')
       
-      .py-3.py-md-4(titulo="Gráfico de barras verticales")
+      .py-3.py-md-4(titulo="Histogramas")
         .row        
           .col-md-7          
             p La función #[em hist](a, bins) crea un histograma a partir de la agrupación de las frecuencias de una lista “a”. El eje “y” muestra la cantidad de veces que se repite el dato que se encuentra en el eje “x”.
@@ -542,7 +545,7 @@
       .py-3.py-md-4(titulo="Gráfico <em>Boxplot</em>")
         .row        
           .col-md-7          
-            p La función #[em hist](a, bins) crea un histograma a partir de la agrupación de las frecuencias de una lista “a”. El eje “y” muestra la cantidad de veces que se repite el dato que se encuentra en el eje “x”.
+            p La función #[em boxplot](a) crea un diagrama de tipo caja y bigotes a partir de los datos suministrados en la lista “a”. El objetivo principal con este tipo de gráficos es mostrar las características comunes de los datos.
             .row
               .col-lg-8
                 figure
@@ -551,7 +554,7 @@
             .titulo-sexto.color-acento-contenido
               h5 Figura 8
               br
-              span #[em Gráfico de líneas]
+              span #[em Boxplot]
             figure
               img(src='@/assets/curso/temas/tema1/img36.png', alt='')
 
@@ -577,9 +580,8 @@
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
-            h3 Fuentes de información externa 
-            p(data-aos="fade-down").mb-4 Son aquellas que tienen su origen por fuera de la organización, por ejemplo, agencias externas, empresas de investigación o entidades gubernamentales. Estas fuentes complementan las fuentes internas y ayudan a mejorar el análisis a realizar, ofreciendo información del contexto que no tenía la organización.
-            p(data-aos="fade-down").mb-4 Algunos ejemplos de las fuentes de información externas son los datos abiertos (u open data), los datos pagos y los datos de redes sociales. Los datos abiertos son datos disponibles de forma gratuita casi siempre por entidades gubernamentales y que todos pueden usar y redistribuir sin condiciones ni restricciones de derechos de autor. Los datos pagos son datos disponibles de forma comercial creados o adquiridos por el proveedor de datos, que se ofrece por un valor a la organización y que pueden ser usados por esta, pero no redistribuidos o publicados (por ejemplo, las bases de datos de registros en las cámaras de comercio). Los datos de redes sociales son todos los datos compartidos por los usuarios en las plataformas de redes sociales y que mediante técnicas de #[i Web Scraping] pueden ser descargados de estos sitios y aprovechados en los proyectos de ciencias de datos de la organización (ejemplo, los comentarios de las publicaciones realizadas en Twitter por la organización para evaluar el nivel de satisfacción de los clientes con los productos o servicios ofrecidos).
+            h3 Técnicas de aprendizaje supervisado
+            p(data-aos="fade-down").mb-4 El aprendizaje supervisado cuenta con dos técnicas principales; la regresión y la clasificación. Estas se diferencian fundamentalmente en el valor que intentan predecir, por un lado, la regresión predice números continuos que puede tomar un rango muy amplio de valores, por otra parte, la clasificación solo tiene dos opciones 1 y 0, que pueden interpretarse como si o no. Para mayor claridad sobre estas técnicas a continuación se ilustran por medio de un caso de uso:
             ul.lista-ul
               li(style="display:inline-block")
                 i.fas.fa-check(style="color:#FECA2E;top:0px")
@@ -598,22 +600,22 @@
             h3 Algoritmos de aprendizaje supervisado
             p Entre los algoritmos más populares de aprendizaje supervisado están:
             ul.lista-ul
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Regresión lineal
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Regresión polinomial
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Vecinos más cercanos (KNN)
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Máquina de soporte vectorial (SVM)
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Árbol de decisión
-              li
+              li(style="display:block")
                 i.fas.fa-check(style="color:#FECA2E")
                 |Regresión logística
             p En la siguiente unidad llamada “modelos de #[em machine learning]”, se ahondará en cada uno de los algoritmos antes descritos.
@@ -650,7 +652,7 @@
                 h4 Algoritmos de aprendizaje no supervisado
                 br
                 br
-                p Entre los algoritmos de aprendizaje no supervisado están los de agrupamiento o Clustering y los de generalización: los algoritmos de agrupamiento se encargan de dividir los datos en relación a características que no conoce y con base en su criterio; por otro lado, los algoritmos de generalización construyen las variables particulares en nuevas de alto nivel, por ejemplo, en los sistemas de recomendación o gestión de riesgos.
+                p Entre los algoritmos de aprendizaje no supervisado están los de agrupamiento o #[em Clustering] y los de generalización: los algoritmos de agrupamiento se encargan de dividir los datos en relación a características que no conoce y con base en su criterio; por otro lado, los algoritmos de generalización construyen las variables particulares en nuevas de alto nivel, por ejemplo, en los sistemas de recomendación o gestión de riesgos.
 
 </template>
 
