@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297" height="117" viewBox="0 0 297 117">
+  <text id="arreglo_2_np.array_1_2_3_4_5_6_7_8_print_arreglo_2_Salida:_1_2_3_4_5_6_7_8_" data-name="arreglo_2 = np.array([[1,2,3,4], [5,6,7,8]])
+print(arreglo_2)
+#Salida:
+[[1 2 3 4]
+ [5 6 7 8]]" transform="translate(1)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">arreglo_2 = np.array([[</tspan><tspan y="17" fill="#2fb663">1</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">2</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">3</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">4</tspan><tspan y="17">], [</tspan><tspan y="17" fill="#2fb663">5</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">6</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">7</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">8</tspan><tspan y="17">]])</tspan><tspan x="0" y="41">print(arreglo_2)</tspan><tspan x="0" y="65">#Salida:</tspan><tspan x="0" y="89">[[1 2 3 4]</tspan><tspan x="0" y="113" xml:space="preserve"> [5 6 7 8]]</tspan></text>
+</svg>

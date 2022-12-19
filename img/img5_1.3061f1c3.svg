@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297" height="93" viewBox="0 0 297 93">
+  <text id="arreglo_1_np.array_1_2_3_4_print_arreglo_1_Salida:_10_20_30_40_" data-name="arreglo_1 = np.array([1,2,3,4])
+print(arreglo_1)
+#Salida:
+[10 20 30 40]" transform="translate(1)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">arreglo_1 = np.array([</tspan><tspan y="17" fill="#2fb663">1</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">2</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">3</tspan><tspan y="17">,</tspan><tspan y="17" fill="#2fb663">4</tspan><tspan y="17">])</tspan><tspan fill="#a39a70"><tspan x="0" y="41">print</tspan><tspan y="41" fill="#12263f">(arreglo_1)</tspan></tspan><tspan x="0" y="65">#Salida:</tspan><tspan x="0" y="89">[10 20 30 40]</tspan></text>
+</svg>

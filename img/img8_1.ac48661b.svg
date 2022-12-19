@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="517" height="93" viewBox="0 0 517 93">
+  <text id="np.random.randn_2_4_Salida:_array_1.08140609_1.27142365_-0.94476481_0.87678435_0.32765834_-0.82676935_0.01746584_0.89508321_" data-name="np.random.randn(2, 4)
+#Salida:
+	array ([[ 1.08140609, 1.27142365, -0.94476481, 0.87678435],
+    	[ 0.32765834, -0.82676935, 0.01746584, 0.89508321]])" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">np.random.randn(</tspan><tspan y="17" fill="#2fb663">2</tspan><tspan y="17">, </tspan><tspan y="17" fill="#2fb663">4</tspan><tspan y="17">)</tspan><tspan x="0" y="41">#Salida:</tspan><tspan x="0" y="65" xml:space="preserve">	array ([[ 1.08140609, 1.27142365, -0.94476481, 0.87678435],</tspan><tspan x="0" y="89" xml:space="preserve">    	[ 0.32765834, -0.82676935, 0.01746584, 0.89508321]])</tspan></text>
+</svg>
