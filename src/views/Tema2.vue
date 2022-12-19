@@ -391,24 +391,9 @@
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-8
                 .titulo-sexto.color-acento-contenido
-                  h5 Tabla 2
-                
-                .tabla-a.color-acento-contenido 
-                  table
-                    thead
-                      tr
-                        th Ventajas
-                        th Desverntajas
-                    tbody
-                      tr
-                        td Requieren poca preparación de los datos para la implementación del modelo. 
-                        td Se pueden crear árboles demasiado complejos que no caractericen bien los datos.
-                      tr
-                        td Permiten tratar problemas que requieren varias salidas o predicciones.
-                        td Predicciones no uniformes, sino aproximaciones.
-                      tr
-                        td Fáciles de aprender e interpretar sus salidas.
-                        td Inestabilidad en sus estructuras, ya que una pequeña variación puede generar un árbol totalmente distinto.
+                  h5 Tabla 2                
+                figure
+                  img(src='@/assets/curso/temas/tema2/tabla.jpg', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-7.mb-4.mb-md-0
@@ -621,7 +606,7 @@
                 .col.mb-3.mb-sm-0
                   .row.justify-content-center.mb-1
                     .col
-                      a.boton.boton--b(:href="('/downloads/codigo.rar')" target="_blank")
+                      a.boton.boton--b(:href="('/downloads/Codigos.rar')" target="_blank")
                         span(style="color:#000000")  Descargar
                         i.fas.fa-download(style="color:#000000")
 </template>

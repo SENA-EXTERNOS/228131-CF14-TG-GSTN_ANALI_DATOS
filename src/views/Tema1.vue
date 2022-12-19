@@ -479,20 +479,12 @@
     
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Gráfico de dispersión")
-        .row        
-          .col-md-7          
-            p La función #[em scatter](a, b) crea un diagrama de puntos, donde las coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente:
-            .row
-              .col-lg-8
-                figure
-                  img(src='@/assets/curso/temas/tema1/img27.png', alt='')              
-          .col-md-5.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 4
-              br
-              span #[em Gráfico de dispersión]
+        .row.justify-content-center.align-items-center
+          .col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/img28.png', alt='')
+              img(src='@/assets/curso/temas/tema1/img27.png', alt='')          
+          .col-md-8
+            p La función #[em scatter](a, b) crea un diagrama de puntos, donde las coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente:          
       
       .py-3.py-md-4(titulo="Gráfico de líneas")
         .row        
