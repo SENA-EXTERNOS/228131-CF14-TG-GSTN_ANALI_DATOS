@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Profundización en <em>Data Science</em>',
     descripcionCurso:
-      'En este componente formativo se estudiará el <em>Data Science</em> o ciencia de datos con sus componentes fundamentales en el procesamiento y análisis de los mismos; para esto, se aplicarán herramientas de tratamiento y manipulación de datos como <em>Numpy</em>, <em>Pandas</em>, y <em>Matplotlib</em>. Finalmente, con la adición de modelos de <em>Machine Learning</em> se generarán predicciones para orientar a las organizaciones en la formulación de estrategias y la toma de decisiones.',
+      'En este componente, se estudia el Data Science o ciencia de datos, con sus componentes para el procesamiento y análisis de los mismos; para este proceso, se aplican herramientas de tratamiento y manipulación de datos como Numpy, Pandas, y Matplotlib. Finalmente, con modelos de Machine learning se generan predicciones para orientar a las organizaciones en la formulación de estrategias y la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -43,38 +43,6 @@ export default {
         numero: '1',
         titulo: '<em>Machine learning y Data science</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: '<em>Numpy</em>',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: '<em>Pandas</em>',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: '<em>Matplotlib</em>',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Aprendizaje supervisado',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Aprendizaje no supervisado',
-            hash: 't_1_5',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
@@ -82,44 +50,6 @@ export default {
         numero: '2',
         titulo: 'Modelos de <em>machine learning	</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Regresión y clasificación',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'K vecinos más cercanos (KNN)	',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Máquina de soporte vectorial (SVM):',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Árboles de decisión',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: '<em>Clustering</em>',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Redes neuronales<em> Deep learning</em>',
-            hash: 't_2_6',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -164,35 +94,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Librería <em>Matplotlib</em>',
+      tema: '<i>Machine learning y Data science</i>',
       referencia:
-        'Alberola, J. (2021). <em>Matplotlib</em> [video]. Universidad Politecnica de Valencia. ',
+        'Alberola, J. (2021). <i>Matplotlib</i> [video]. Universidad Politécnica de Valencia.',
       tipo: 'Video',
       link: 'https://riunet.upv.es/handle/10251/168966',
     },
     {
-      tema: 'Librería <em>Numpy</em>',
+      tema: '<i>Machine learning y Data science</i>',
       referencia:
         'Alberola J. (2021). <em>Operaciones básicas con Numpy</em> [video]. Universidad Politecnica de Valencia ',
       tipo: 'Video',
       link: 'https://riunet.upv.es/handle/10251/168551',
     },
     {
-      tema: 'Librería Pandas',
+      tema: '<i>Machine learning y Data science</i>',
       referencia:
         'Lluch, J. (2022). <em>Introducción a la librería Pandas</em>. [video]. Universidad Politecnica de Valencia. ',
       tipo: 'Video',
       link: 'https://riunet.upv.es/handle/10251/183074',
     },
     {
-      tema: '<em>Machine Learning</em>',
+      tema: '<i>Machine learning y Data science</i>',
       referencia:
         'Quispe, A. (2020). <em>Uso de Machine Learning en la creación de páginas web a medida de los usuarios. Campus</em>, 25(30), 337-344.',
       tipo: 'Artículo',
       link: 'https://www.usmp.edu.pe/campus/pdf/revista30/articulo9.pdf ',
     },
     {
-      tema: 'Redes Neuronales',
+      tema: 'Modelos de Machine <i>learning</i>',
       referencia:
         'Repetur, A. (2019). <em>Redes neuronales artificiales</em>. [Trabajo final presentado para obtener el título de Licenciado en Ciencias Matemáticas]. Universidad Nacional del Centro de la Provincia de Buenos Aires. ',
       tipo: 'Trabajo final',
@@ -202,14 +132,14 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aprendizaje no Supervisado',
+      termino: 'Aprendizaje no supervisado',
       significado:
         'el aprendizaje no supervisado es una categoría del <em>Machine learning</em> que encuentra o infiere por sí mismo estructuras y patrones en los datos sin que ellos estén etiquetados, clasificados y categorizados.',
     },
     {
       termino: 'Aprendizaje Supervisado',
       significado:
-        'el aprendizaje supervisado es un tipo de <em>Machine learning</em> en el cual se toma una muestra de datos que contienen etiquetas, para luego, a través de diferentes algoritmos, entrenar un modelo que sea capaz de predecir o clasificar una nueva entrada de datos que no esté en los datos originales o de muestra',
+        'es un tipo de <i>Machine learning</i> en el cual se toma una muestra de datos que contiene etiquetas para, luego, a través de diferentes algoritmos, entrenar un modelo que sea capaz de predecir o clasificar una nueva entrada de datos que no esté en los datos originales o de muestra.',
     },
     {
       termino: '<em>Clustering</em>>',
@@ -224,7 +154,7 @@ export default {
     {
       termino: '<em>Matplotlib</em>',
       significado:
-        'es una librería de <em>Python</em> que se especializa en la generación de gráficos de dos dimensiones, siendo una de las aplicaciones históricas dentro de su repositorio y empleada por la gran mayoría de los usuarios de la comunidad',
+        'Es una librería de Python que se especializa en la generación de gráficos de dos dimensiones, siendo una de las aplicaciones históricas dentro de su repositorio y empleada por la gran mayoría de los usuarios de la comunidad.',
     },
     {
       termino: 'Modelos de clasificación',
@@ -234,22 +164,22 @@ export default {
     {
       termino: 'Modelos de regresión',
       significado:
-        'son un tipo de aprendizaje inductivo que predicen valores numéricos a partir de un dominio suministrado de atributos con valores continuos que se podrán describir a través de una función hipótesis para la predicción de eventos futuros.',
+        'Se trata de un tipo de análisis de regresión utilizado para predecir el resultado de una variable categórica, en función de las variables independientes o predictoras.',
     },
     {
-      termino: '<em>Numpy</em>',
+      termino: '<em>NumPy</em>',
       significado:
-        'Es una poderosa librería de <em>Python</em> que se especializa en analizar y realizar cálculos numéricos a los datos con eficiencia, particularmente cuando el insumo son grandes cantidades de información.',
+        'Es una poderosa librería de Python que se especializa en analizar y realizar cálculos numéricos a los datos con eficiencia, particularmente cuando el insumo son grandes cantidades de información.',
     },
     {
       termino: '<em>Pandas</em>',
       significado:
-        'es una librería de <em>Python</em> experta en la manipulación y análisis de datos. Además ofrece visualizaciones que permiten simplificar la estadística descriptiva mediante la aplicación de funciones simples.',
+        'Es una librería de Python experta en la manipulación y análisis de datos. Además, ofrece visualizaciones que permiten simplificar la estadística descriptiva mediante la aplicación de funciones simples.',
     },
     {
       termino: 'Redes neuronales',
       significado:
-        'son algoritmos de inteligencia artificial que procesan los datos de forma similar al cerebro humano',
+        'Son algoritmos de inteligencia artificial que procesan los datos de forma similar al cerebro humano.',
     },
     {
       termino: 'Visión artificial',

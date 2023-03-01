@@ -1,1 +1,1 @@
-module.exports = 'Profundización en <em>Data Science</em>'
+module.exports = 'Profundización en <i>Data Science</i>'

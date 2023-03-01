@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="820" height="285" viewBox="0 0 820 285">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_295495" data-name="Rectángulo 295495" width="385.623" height="141.74" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_172862" data-name="Grupo 172862" transform="translate(-390 -6718)">
+    <g id="Grupo_148920" data-name="Grupo 148920" transform="translate(62.833 -413)">
+      <text id="import" transform="translate(413.182 7176.259)" fill="#a39a70" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">impo</tspan><tspan y="0" letter-spacing="0.024em">r</tspan><tspan y="0">t</tspan></text>
+      <text id="_matplotlib.pyplot_" data-name=" matplotlib.pyplot " transform="translate(454.346 7176.259)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> matplotlib.pyplot </tspan></text>
+      <text id="as" transform="translate(566.159 7176)" fill="#a39a70" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">as</tspan></text>
+      <text id="_plt" data-name=" plt" transform="translate(581 7176.259)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> plt</tspan></text>
+      <text id="X_" data-name="X = [" transform="translate(413.182 7209.859)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">X = [</tspan></text>
+      <text id="_1" data-name="1" transform="translate(440.286 7209.859)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_" data-name=", " transform="translate(448.153 7209.859)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_2" data-name="2" transform="translate(454.37 7209.859)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+      <text id="_2-2" data-name=", " transform="translate(462.224 7209.859)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_3" data-name="3" transform="translate(468.439 7209.859)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+      <text id="_3-2" data-name=", " transform="translate(476.294 7209.859)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_4" data-name="4" transform="translate(482.51 7209.859)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+      <text id="_4-2" data-name="]" transform="translate(490.364 7209.859)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">]</tspan></text>
+      <text id="Y_" data-name="Y = [" transform="translate(413.167 7226.659)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Y = [</tspan></text>
+      <text id="_25" data-name="25" transform="translate(439.907 7226.659)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">25</tspan></text>
+      <text id="_5" data-name=", " transform="translate(455.63 7226.659)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_12" data-name="12" transform="translate(461.846 7226.659)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">12</tspan></text>
+      <text id="_6" data-name=", " transform="translate(477.567 7226.659)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_33" data-name="33" transform="translate(483.784 7226.659)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">33</tspan></text>
+      <text id="_7" data-name=", " transform="translate(499.505 7226.659)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">, </tspan></text>
+      <text id="_30" data-name="30" transform="translate(505.722 7226.659)" fill="#2fb663" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">30</tspan></text>
+      <text id="_8" data-name="]" transform="translate(521.443 7226.659)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">]</tspan></text>
+      <text id="plt.plot_X_Y_" data-name="plt.plot(X,Y)" transform="translate(413.182 7243.459)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">plt.plot(X,</tspan><tspan y="0" letter-spacing="0.009em">Y</tspan><tspan y="0">)</tspan></text>
+      <text id="plt.show_" data-name="plt.show()" transform="translate(413.182 7260.259)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">plt.show()</tspan></text>
+      <text id="Salida:" transform="translate(413.182 7293.858)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Salida:</tspan></text>
+    </g>
+    <g id="Grupo_148921" data-name="Grupo 148921" transform="translate(33 -394.949)">
+      <g id="Grupo_146461" data-name="Grupo 146461" transform="translate(14147 14947)">
+        <rect id="Rectángulo_34041" data-name="Rectángulo 34041" width="5" height="41" transform="translate(-13445 -7799)" fill="#4dd0e1"/>
+        <text id="Figura_1_Ejemplo_de_gráfico_con_Matplotlib" data-name="Figura 1
+Ejemplo de gráfico con Matplotlib" transform="translate(-13429 -7782)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Figura 1</tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400" font-style="italic"><tspan x="0" y="18">Ejemplo de gráfico con Matplotlib</tspan></tspan></text>
+      </g>
+      <g id="Grupo_146463" data-name="Grupo 146463" transform="translate(705 7221.159)">
+        <g id="Grupo_146462" data-name="Grupo 146462" clip-path="url(#clip-path)">
+          <path id="Trazado_204603" data-name="Trazado 204603" d="M376.681,122H20.085V0" fill="none" stroke="#0c1d30" stroke-miterlimit="10" stroke-width="1"/>
+          <text id="_30-2" data-name="30" transform="translate(0 26.893)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">30</tspan></text>
+          <text id="_25-2" data-name="25" transform="translate(0 52.793)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">25</tspan></text>
+          <text id="_20" data-name="20" transform="translate(0 78.693)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">20</tspan></text>
+          <text id="_15" data-name="15" transform="translate(0 104.594)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">15</tspan></text>
+          <text id="_10" data-name="10" transform="translate(20.087 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10</tspan></text>
+          <text id="_15-2" data-name="15" transform="translate(78.389 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">15</tspan></text>
+          <text id="_20-2" data-name="20" transform="translate(136.685 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">20</tspan></text>
+          <text id="_25-3" data-name="25" transform="translate(194.98 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">25</tspan></text>
+          <text id="_30-3" data-name="30" transform="translate(253.276 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">30</tspan></text>
+          <text id="_35" data-name="35" transform="translate(311.572 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">35</tspan></text>
+          <text id="_40" data-name="40" transform="translate(369.869 137.946)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">40</tspan></text>
+          <path id="Trazado_204604" data-name="Trazado 204604" d="M28.171,47.745l115.816,68.17L259.8,5.617,376.682,21.7" fill="none" stroke="#ffbc19" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.327"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectángulo_45000" data-name="Rectángulo 45000" transform="translate(390 6718)" fill="none" stroke="#f6f6f6" stroke-width="4">
+      <rect width="820" height="285" rx="20" stroke="none"/>
+      <rect x="2" y="2" width="816" height="281" rx="18" fill="none"/>
+    </g>
+  </g>
+</svg>

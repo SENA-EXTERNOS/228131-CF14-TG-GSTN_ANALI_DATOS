@@ -12,7 +12,9 @@
       .col-md-2.bloque_vertical.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .cajon-b.cajon-x.color-primario.p-3.mb-5.abajo-derecha
-          p.mb-0 Bienvenido a este recurso de aprendizaje orientado a la ciencia de datos; durante su desarrollo se abordarán los ejes temáticos #[em Machine learning], #[em Data science] y modelos de #[em Machine learning]. Al finalizar el componente formativo, se estará en la capacidad de emplear algoritmos de Machine learning de acuerdo con las necesidades del negocio y las metodologías de análisis de datos. Antes de empezar, se sugiere revisar el siguiente video para identificar el contexto de aprendizaje:
+          p Apreciado aprendiz, bienvenido a este componente formativo, donde se desarrollarán aspectos generales y claves sobre la ciencia de los datos; conviértase en todo un experto en Data science y en modelos de #[i Machine learning].
+          p Afiance sus saberes y habilidades para el empleo de algoritmos de #[i Machine learning], de acuerdo con las necesidades del negocio y las metodologías de análisis de datos.
+          p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.justify-content-center.align-items-center.md-5   
       .col-lg-12(data-aos="fade-left")     

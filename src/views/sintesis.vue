@@ -3,11 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En el siguiente mapa podrá apreciar un resumen de los temas trabajados con los conceptos básicos de #[em Data science]:
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 16
-      br
-      span #[em Mapa mental - Data science]
+    p.my-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

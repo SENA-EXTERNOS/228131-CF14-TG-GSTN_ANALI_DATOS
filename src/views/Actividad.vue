@@ -9,10 +9,11 @@
           figure
             img(src="@/assets/template/arrastrar-soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Profundización en #[em Data Science]
         
-        p.mb-4 Seleccionar la respuesta correcta y arrastrar en el enunciado que corresponde
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

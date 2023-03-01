@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Modelos de #[em Machine learning]
+      h1 Modelos de #[i Machine learning]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") En esta unidad del componente formativo ahondaremos en los distintos modelos de #[em Machine learning], tanto de aprendizaje supervisado como de aprendizaje no supervisado. En general estos modelos cumplen con los siguientes pasos u hoja de ruta: 
+        p(data-aos="fade-right") En este tema, ahondaremos en los distintos modelos de #[i Machine learning], tanto de aprendizaje supervisado, como de aprendizaje no supervisado. En general, estos modelos cumplen con los siguientes pasos o agenda: 
     
     PasosA.color-acento-botones.mb-5(tipo="n")
       .row
@@ -26,7 +26,7 @@
             img(src='@/assets/curso/temas/tema2/img2.png', alt='')
         .col-md-6
           h3 Recopilación de los datos
-          p Preparar y dividir los datos en entrenamiento y validación o testo.
+          p Preparar y dividir los datos en entrenamiento y validación o testeo.
           
 
       .row
@@ -51,12 +51,12 @@
       .col-md-2.bloque_vertical3.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 En la siguiente figura se ilustra el ciclo de un modelo de #[em machine learning], donde inicia con el suministro de los datos: luego se aplica el modelo de #[em machine learning] para generar una predicción y finalmente se actualiza para entrar en una nueva iteración.
+          p.mb-0 En la siguiente figura, se ilustra el ciclo de un modelo de #[i Machine learning], donde se inicia con el suministro de los datos; luego se aplica el modelo de #[i Machine learning] para generar una predicción; y finalmente, se actualiza para entrar en una nueva iteración. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          h5 Figura 9
+          h5 Figura 2
           br
           span #[em Ciclo de un modelo de Machine learning]
         figure
@@ -65,7 +65,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-          p(data-aos="fade-down").mb-4 Antes de entrar en detalle con los modelos de #[em machine learning] es pertinente mencionar a una de las librerías más populares de #[em Data science] en #[em Python], llamada #[em scikit-learn], la cual contiene algoritmos de clasificación, regresión y agrupamiento. Además, es open source y de fácil aprendizaje, razón por la cual se ha convertido en la favorita de los científicos de datos.
+          p(data-aos="fade-down").mb-4 Antes de entrar en detalle con los modelos de #[i Machine learning], es pertinente mencionar a una de las librerías más populares de Data Science en Python, llamada Scikit-learn, la cual contiene algoritmos de clasificación, regresión y agrupamiento. Además, es #[i open source] y de fácil aprendizaje, razón por la cual se ha convertido en la favorita de los científicos de datos.
 
 
     .row.justify-content-center
@@ -77,7 +77,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p Para mayor profundización en la librería de #[em scikit-learn] acceder a su sitio oficial:
+                  p Para mayor profundización en la librería de Scikit-learn, acceder a su sitio oficial:
                 .col.mb-3.mb-sm-0
                   .row.justify-content-center.mb-1
                     .col
@@ -86,13 +86,9 @@
                         i.fas.fa-link(style="color:#000000")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 10
-          br
-          span #[em Fases del machine learning]
+      p.mb-4 Explore los puntos interactivos del siguiente esquema y conozca, más y mejor, las fases del #[i Machine learning]:
         
-        ImagenInfografica.color-primario.mb-5
+        ImagenInfografica.color-primario.my-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='') 
@@ -104,7 +100,7 @@
                     
                   .col-lg-8
                     
-                p Se inicia con la recopilación de los datoscomo materia prima para la creación de los modelos de #[em machine learning]
+                p Se inicia con la recopilación de los datos como materia prima para la creación de los modelos de #[i Machine Learning.]
 
           .tarjeta.p-3(x="33%" y="48%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -113,7 +109,7 @@
                   .col-lg-4
                     
                   .col-lg-8
-                p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogeneos, entre otros. Tambien se llama fase de limpieza de datos.
+                p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogéneos, entre otros. Tambien se llama fase de limpieza de datos.
           
           .tarjeta.p-3(x="50%" y="36%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -124,7 +120,7 @@
                       img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
                   .col-lg-8
                     h4 Entrenamiento del Modelo
-                p En esta fase se elige y entrena el modelo con los datos previamente preparados, para generar una función objetivo.
+                p En esta fase se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a través de métricas como exactitud y la precisión.
           
           .tarjeta.p-3(x="67%" y="48%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -142,19 +138,19 @@
                   .col-lg-4
                     
                   .col-lg-8
-                p Fasel final del #[em Machine Learning], donde el modelo se envía a producción previo a pruebas de calidad.
+                p Fasel final del Machine Learning, donde el modelo se envía a producción, previo a pruebas de calidad.
 
     separador
     .row
       .col-xl-12
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.1	Regresión y Clasificación 
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 6. Regresión y Clasificación 
     
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical4.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 Los algoritmos de regresión y clasificación hacen parte del aprendizaje supervisado, por lo tanto, estos modelos aprenden de forma interactiva con los datos para realizar tareas específicas y predecir resultados conocidos. A continuación, conocerás en detalle el funcionamiento de estos algoritmos:
+          p.mb-0 Los algoritmos de regresión y clasificación, forman parte del aprendizaje supervisado; por lo tanto, estos modelos aprenden de forma interactiva, con los datos, para realizar tareas específicas y predecir resultados conocidos. A continuación, se conocerá en detalle, el funcionamiento de estos algoritmos:
 
     .bg--img_03
       .row.justify-content-center
@@ -165,18 +161,16 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img15.svg', alt='' )
               .col-10
-                p Los algoritmos de regresión son un tipo de aprendizaje inductivo que predice valores numéricos a partir de un dominio suministrado de atributos con valores continuos, estos se podrán describir a través de una función hipótesis para la predicción de eventos futuros. Es importante mencionar que los algoritmos de regresión no devuelven una predicción exacta sobre los eventos futuros, sino que entregan una aproximación (Bosch et al., 2019).
+                p Los algoritmos de regresión son un tipo de aprendizaje inductivo que predice valores numéricos a partir de un dominio suministrado de atributos con valores continuos; estos se podrán describir a través de una función hipótesis para la predicción de eventos futuros. Es importante mencionar que los algoritmos de regresión no devuelven una predicción exacta sobre los eventos futuros, sino que entregan una aproximación. (#[i Bosch, et al]., 2019)
                 .row.justify-content-center.align-items-center.mb-5
                   .col-lg-6
                     .row.justify-content-center.align-items-center
                       .col-lg-10
                         .titulo-sexto.color-acento-contenido
-                          h5 Figura 11
-                          br
-                          span #[em Ejemplo de un Algoritmo de Regresión]
+                          p #[i Ejemplo de un Algoritmo de Regresión]
                     figure
                       img(src='@/assets/curso/temas/tema2/img17.svg', alt='' )
-                p Casos de uso: los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios; evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en #[em Google colab], donde se requiere predecir el costo de un incidente de ciberseguridad con base en los equipos que fueron afectados:
+                p #[b Casos de uso.]  Los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios: evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en Google Colab, donde se requiere predecir el costo de un incidente de ciberseguridad, con base en los equipos que fueron afectados:
                 
                 .row.justify-content-center
                   .col-lg-12
@@ -205,14 +199,11 @@
                   .col-lg-6
                     .row.justify-content-center.align-items-center
                       .col-lg-10
-                        .titulo-sexto.color-acento-contenido
-                          h5 Figura 12
-                          br
-                          span #[em Ejemplo de un Algoritmo de Clasificación]
+
                     figure
                       img(src='@/assets/curso/temas/tema2/img18.svg', alt='' )
-                p Casos de usos: los algoritmos de clasificación pueden utilizarse con éxito en los siguientes escenarios; clasificar mensajes maliciosos en correos electrónicos, detectar fraudes, analizar sentimientos basados en una publicación en redes sociales, realizar búsqueda de documentos similares, detectar el lenguaje de un documento o página #[em web], entre otros.
-                p Para profundizar en la implementación de un modelo de clasificación, se plantea un ejercicio desarrollado en #[em Google colab], donde se requiere predecir si un correo es o no un #[em spam].
+                p #[b Casos de uso.] Los algoritmos de clasificación, pueden utilizarse con éxito en los siguientes escenarios: clasificar mensajes maliciosos en correos electrónicos, detectar fraudes, analizar sentimientos basados en una publicación en redes sociales, realizar búsqueda de documentos similares, detectar el lenguaje de un documento o página web, entre otros.
+                p Para profundizar en la implementación de un modelo de clasificación, se plantea un ejercicio desarrollado en Google Colab, donde se requiere predecir si un correo es o no, un #[i spam.]
                 
                 .row.justify-content-center
                   .col-lg-12
@@ -235,22 +226,24 @@
     separador
     .row
       .col-xl-12       
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.2	K vecinos más cercanos (KNN) 
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 7.	K vecinos más cercanos (KNN) 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p El algoritmo del vecino más cercano o KNN adopta como base la capacidad de relacionar nuevas predicciones con experiencias pasadas, algo similar a lo que realizan los seres humanos cuando se basan en la experiencia para resolver nuevos problemas.
-        p Casos de uso: algunos de los campos en los cuales se utilizan esta técnica son:
+        p #[b Casos de uso.] Algunos de los campos en los cuales se utiliza esta técnica, son:
         ul.lista-ul
           li
             i.fas.fa-check(style="color:#FECA2E")
-            |En soluciones avanzadas de visión computarizada, para la detección por ejemplo de delincuentes en un aeropuerto.
+            | En soluciones avanzadas de visión computarizada, para la detección, por ejemplo, de delincuentes en un aeropuerto.
           li
             i.fas.fa-check(style="color:#FECA2E")
-            |En sistemas de recomendación como el usado por #[em Netflix], donde pueden predecir si a un determinado usuario le gustará una nueva película o serie.
+            | En sistemas de recomendación como el usado por Netflix, donde pueden predecir si a un determinado usuario le gustará una nueva película o serie.
+          li
+            i.fas.fa-check(style="color:#FECA2E")
+            | En el campo de la medicina, para la detección de patrones en los datos genéticos que ayudan en el diagnóstico de enfermedades.
 
-        p En el campo de la medicina para la detección de patrones en los datos genéticos que ayudan en el diagnóstico de enfermedades.
 
       .col-lg-5
         figure
@@ -265,8 +258,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-            h5 Tabla 1
-            
+          h5 Tabla 1
+          br
+          span #[em Ventajas y desventajas del algoritmo]
+      .col-lg-9            
         .tabla-a.color-acento-contenido 
           table
             thead
@@ -290,7 +285,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p El algoritmo elige el valor de K y los datos de entrenamiento que han sido previamente clasificados en distintas categorías con sus respectivas etiquetas, posteriormente toma cada registro que no ha sido etiquetado de los datos de prueba o testeo e identifica cuáles son los datos de entrenamiento (los etiquetados) que se encuentran “más cercanos” y que tengan las mismas similitudes, para finalmente asignar una etiqueta.
+        p El algoritmo elige el valor de K y los datos de entrenamiento que han sido previamente clasificados en distintas categorías, con sus respectivas etiquetas; posteriormente, toma cada registro que no ha sido etiquetado de los datos de prueba o testeo, e identifica cuáles son los datos de entrenamiento (los etiquetados) que se encuentran “más cercanos” y que tengan las mismas similitudes para, finalmente, asignar una etiqueta.
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
             .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
@@ -303,8 +298,8 @@
     separador
     .row
       .col-xl-12       
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.3	Máquina de soporte vectorial (SVM):
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 8.	Máquina de soporte vectorial (SVM):
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -316,7 +311,7 @@
             .bloque-texto-g__texto--border.p-2.d-inline-block
               .bloque-texto-g__texto.p-4
                 .row.justify-content-center.align-items-center.mb-5                  
-                  p El algoritmo de máquina de soporte vectorial o SVM por sus siglas en inglés, se puede utilizar tanto para problemas de regresión como de clasificación, aunque es más empleado por su facilidad de implementación en modelos de clasificación. El principio detrás de este algoritmo es trazar dos líneas entre los puntos con mayor distancia, entre ellos para hallar la forma óptima de ordenar las clases. Los vectores que separan los puntos se llaman vectores de soporte. 
+                  p El algoritmo de máquina de soporte vectorial o SVM, se puede utilizar tanto para problemas de regresión, como de clasificación, aunque es más empleado por su facilidad de implementación en modelos de clasificación. El principio detrás de este algoritmo es el de trazar dos líneas entre los puntos con mayor distancia entre ellos, para hallar la forma óptima de ordenar las clases. Los vectores que separan los puntos, se llaman vectores de soporte. 
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Algoritmo de máquina de soporte vectorial")
@@ -325,16 +320,13 @@
             p El principio detrás de este algoritmo es trazar dos líneas entre los puntos con mayor distancia entre ellos para hallar la forma óptima de ordenar las clases. Los vectores que separan los puntos se llaman vectores de soporte.
                      
           .col-md-5.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 13
-              br
-              span #[em Máquina de Soporte Vectorial]
+
             figure
               img(src='@/assets/curso/temas/tema2/img22.svg', alt='')
       .py-3.py-md-4(titulo="Casos de usos")
         .row        
           .col-md-7          
-            p Algunos de los campos en los cuales se utilizan esta técnica son: 
+            p Algunos de los campos en los cuales se utiliza esta técnica, son:
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#FECA2E")
@@ -354,7 +346,7 @@
                 .tarjeta.p-3.mb-5.color-primario.bg-gradient
                   .row.justify-content-between.align-items-center
                     .col-9.mb-3.mb-sm-0
-                      p Para mayor profundización en la implementación de este algoritmo consultar la documentación oficial de #[em scikit-learn] en:
+                      p Para mayor profundización en la implementación de este algoritmo consultar la documentación oficial de Scikit-learn en: 
                     .col.mb-3.mb-sm-0
                       .row.justify-content-center.mb-1
                         .col
@@ -369,8 +361,8 @@
     separador
     .row
       .col-xl-12       
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.4	Árboles de decisión 
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 9.	Árboles de decisión 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -388,12 +380,31 @@
             h3 Algoritmo árbol de decisión
             p(data-aos="fade-down").mb-4 El principio básico de este algoritmo es la aplicación del enfoque “divide y vencerás”; dado que separa los datos en varios subconjuntos que posteriormente son divididos nuevamente en subconjuntos más pequeños y así sucesivamente hasta que se cumple con el objetivo de obtener datos homogéneos o el criterio de identificación.
             p(data-aos="fade-down").mb-4 A continuación, se detallan algunas ventajas y desventajas de esta técnica:
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-8
-                .titulo-sexto.color-acento-contenido
-                  h5 Tabla 2                
-                figure
-                  img(src='@/assets/curso/temas/tema2/tabla.jpg', alt='')
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-6
+              .titulo-sexto.color-acento-contenido
+                h5 Tabla 2
+                br
+                span #[em Ventajas y desventajas del algoritmo]
+
+            .col-lg-9            
+              .tabla-a.color-acento-contenido 
+                table
+                  thead
+                    tr
+                      th Ventajas
+                      th Desverntajas
+                  tbody
+                    tr
+                      td Requieren poca preparación de los datos para la implementación del modelo.
+                      td Se pueden crear árboles demasiado complejos que no caractericen bien los datos.
+                    tr
+                      td Permiten tratar problemas que requieren varias salidas o predicciones.
+                      td Predicciones no uniformes, sino aproximaciones.
+                    tr
+                      td Fáciles de aprender e interpretar sus salidas.
+                      td Inestabilidad en sus estructuras, ya que una pequeña variación puede generar un árbol totalmente distinto.
+
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-7.mb-4.mb-md-0
@@ -409,16 +420,18 @@
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/img25.png', alt='')
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.my-5
       .col-lg-12
-        p(data-aos="fade-right") Los árboles de decisión son ampliamente usados en la solución de problemas cotidianos, ya que permiten comparar acciones y resultados basadas en la relación costo/beneficio.
+        p(data-aos="fade-right") Los árboles de decisión, son ampliamente usados en la solución de problemas cotidianos, porque permiten comparar acciones y resultados, basados en la relación costo/beneficio.
+        p(data-aos="fade-right") El siguiente esquema favorece la comprensión del proceso de creación de un árbol de decisión. Explore cada uno de sus puntos interactivos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 14
+          h5 Figura 3
           br
           span #[em Creación de árbol de decisión]
+
         
         ImagenInfografica.color-primario.mb-5
           template(v-slot:imagen)
@@ -438,7 +451,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-4
                   .col-lg-8
-                  p Agregar nodos de oportuniodades o de decisiones luego de cada decisión.
+                  p Agregar nodos de oportunidades o de decisiones luego de cada decisión.
           
           .tarjeta.p-3(x="50%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -446,7 +459,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-4
                   .col-lg-8
-                  p Continuear agregando nodos de oportunidades y de decisiones al árbol hasta que hayas abarcado todas las decisiones y resultados posibles.
+                  p Continuar agregando nodos de oportunidades y de decisiones al árbol, hasta haber abarcado todas las decisiones y resultados posibles.
           
           .tarjeta.p-3(x="68%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -462,26 +475,26 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-4
                   .col-lg-8
-                  p Aceptar o declinar la decisión deacuerdo a los resultados del algoritmo.
+                  p Aceptar o declinar la decisión de acuerdo a los resultados del algoritmo.
 
     separador
     .row
       .col-xl-12       
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.5	#[em Clustering ]
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 10.	#[em Clustering ]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El algoritmo #[em Clustering] o de agrupamiento, es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[em clusters]. Los objetos o datos que contienen los #[em clusters] comparten atributos similares entre sí pero distintos a los datos de otros #[em clusters].
+        p(data-aos="fade-right") El algoritmo #[i clustering] o de agrupamiento es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[i clusters]. Los objetos o datos que contienen los clusters, comparten atributos similares entre sí, pero distintos a los datos de otros #[i clusters].
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        h3 Algoritmo #[em clustering]        
+        h3 Algoritmo #[i clustering]        
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-right") Esta técnica también se denomina “segmentación” y es utilizada para hallar atributos que son implícitos en los datos, es decir encuentran etiquetas parecidas entre los miembros del #[em cluster] y a su vez delimitan la distancia con otros #[em clusters].
-        p(data-aos="fade-right") Un ejemplo clásico para la aplicación de la técnica de agrupamiento son los comercios en línea,  estos podrían estudiar a los clientes que realizan compras en una época del año y establecer sus preferencias. Con la aplicación de un algoritmo de #[em clustering] se puede segmentar a los clientes en grupos de acuerdo con las predicciones y tomar decisiones sobre los productos que se deben ofrecer y aplicarles las respectivas promociones o descuentos.
+        p(data-aos="fade-right") Esta técnica también se denomina “segmentación” y es utilizada para hallar atributos que son implícitos en los datos, es decir, encuentran etiquetas parecidas entre los miembros del clúster y, a su vez, delimitan la distancia con otros #[i clusters].
+        p(data-aos="fade-right") Un ejemplo clásico para la aplicación de la técnica de agrupamiento, son los comercios en línea; estos podrían estudiar a los clientes que realizan compras en cierta época del año y establecer sus preferencias. Con la aplicación de un algoritmo de #[i clustering], se puede segmentar a los clientes por grupos, de acuerdo con las predicciones y tomar decisiones sobre los productos que se deben ofrecer y aplicarles las respectivas promociones o descuentos. 
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img27.png', alt='')
@@ -489,9 +502,9 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          h5 Figura 15
+          h5 Figura 4
           br
-          span #[em Clustering]
+          span #[i Clustering]
 
         figure
           img(src='@/assets/curso/temas/tema2/img28.png', alt='')
@@ -501,7 +514,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img29.svg', alt='')
       .col-lg-9
-        p(data-aos="fade-right") #[b Casos de usos]: algunos de los campos en los cuales se utilizan esta técnica son:
+        p(data-aos="fade-right") Casos de usos: algunos de los campos en los cuales se utiliza esta técnica, son:
         ul.lista-ul
           li
             i.fas.fa-check(style="color:#FECA2E")
@@ -520,20 +533,20 @@
     separador
     .row
       .col-xl-12       
-    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.6	Redes neuronales #[em Deep learning]
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 11. Redes neuronales #[em Deep learning]
 
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical5.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 Las redes neuronales son algoritmos de inteligencia artificial que procesan los datos de forma similar al cerebro humano. Hacen parte de una rama del aprendizaje de máquina llamado aprendizaje profundo o #[em Deep learning], las redes neuronales están formadas por nodos o neuronas que se conectan entre sí para crear capas una debajo de la otra.
+          p.mb-0 Las redes neuronales son algoritmos de inteligencia artificial, que procesan los datos de forma similar al cerebro humano. Hacen parte de una rama del aprendizaje de máquina llamado aprendizaje profundo o Deep learning. Las redes neuronales están formadas por nodos o neuronas que se conectan entre sí, para crear capas una debajo de la otra.
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Casos de usos")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p Algunos de los campos en los cuales se utilizan esta técnica son:
+            p algunos de los campos en los cuales se utiliza esta técnica son:
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#0F2771")
@@ -564,16 +577,16 @@
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#0F2771")
-                |#[b Visión artificial]: estas aplicaciones extraen información desde imágenes o videos y son procesadas con algoritmos de #[em Deep learning], que facilitan la distinción y reconocimiento de forma similar a la visión humana. 
+                | #[b Visión artificial:] estas aplicaciones extraen información desde imágenes o videos y son procesadas con algoritmos de #[i Deep learning], que facilitan la distinción y reconocimiento de forma similar a la visión humana. 
               li
                 i.fas.fa-check(style="color:#0F2771")
-                |#[b Reconocimiento de voz]: con las redes neuronales se puede analizar el habla humana independiente de las variaciones en su tono, idioma o acentos. Como ejemplo se resaltan los asistentes Alexa y Cortana de los gigantes tecnológicos #[em Amazon] y #[em Microsoft] respectivamente.
+                | #[b Reconocimiento de voz:] con las redes neuronales se puede analizar el habla humana independiente de las variaciones en su tono, idioma o acentos. Como ejemplo se resaltan los asistentes Alexa y Cortana de los gigantes tecnológicos Amazon y Microsoft respectivamente.
               li
                 i.fas.fa-check(style="color:#0F2771")
-                |#[b Procesamiento de lenguaje natural]: la implementación de redes neuronales permite el procesamiento de texto natural escrito por los humanos y obtiene un significado a partir de estos. Los #[em chatbots] o agentes virtuales son el ejemplo más representativo de esta aplicación.
+                | #[b Procesamiento de lenguaje natural:] la implementación de redes neuronales permite el procesamiento de texto natural escrito por los humanos y obtiene un significado a partir de estos. Los chatbots o agentes virtuales son el ejemplo más representativo de esta aplicación.
               li
                 i.fas.fa-check(style="color:#0F2771")
-                |#[b Motores de recomendaciones]: las redes neuronales son utilizadas para realizar seguimiento a la actividad de las personas en la #[em web] y con ello generar recomendaciones muy personalizadas.
+                | #[b Motores de recomendaciones:] las redes neuronales son utilizadas para realizar seguimiento a la actividad de las personas en la web y con ello generar recomendaciones muy personalizadas.
 
 
           .col-xl-4.mb-4
@@ -582,7 +595,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Deep learning</em> vs <em>Machine learning</em>")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p Para que los modelos de #[em machine learning] funcionen correctamente es necesario la intervención humana; los científicos de datos se encargan de forma manual de realizar los procesos de extracción, transformación y carga de los datos (ETL por sus siglas en inglés). Por otro lado, con el #[em Deep learning] el científico de datos solamente le suministra los datos al modelo sin procesarlos, ya que, la red de este se encargará de obtener los atributos de los datos por si sola e irá aprendiendo de forma independiente
+            p Para que los modelos de #[i Machine learning] funcionen correctamente, es necesario la intervención humana; los científicos de datos se encargan, de forma manual, de realizar los procesos de extracción, transformación y carga de los datos ETL. Por otro lado, con el #[i Deep learning], el científico de datos solamente le suministra los datos al modelo sin procesarlos, porque la red de este se encargará de obtener los atributos de los datos por sí sola, e irá aprendiendo de forma independiente.
             
           .col-xl-4.mb-4
             figure
@@ -602,7 +615,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p Para afianzar los conocimientos en #[em Machine learning], descargar los siguientes archivos de códigos. 
+                  p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
                 .col.mb-3.mb-sm-0
                   .row.justify-content-center.mb-1
                     .col
