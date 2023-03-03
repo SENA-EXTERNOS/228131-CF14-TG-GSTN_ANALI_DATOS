@@ -25,13 +25,13 @@
       <path id="Trazado_207192" data-name="Trazado 207192" d="M625.442,75.966h-216.9a36.84,36.84,0,0,1,0-73.68h216.9a36.84,36.84,0,0,1,0,73.68Z" fill="none" stroke="#122654" stroke-width="4.572"/>
     </g>
   </g>
-  <text id="Data_Science" data-name="Data Science" transform="translate(464.137 44.971)" fill="#122654" font-size="18" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">Data Science</tspan></text>
+  <text id="Data_Science" data-name="Data Science" transform="translate(464.137 44.971)" fill="#122654" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Data Science</tspan></text>
   <g id="Grupo_148479" data-name="Grupo 148479">
     <g id="Grupo_148478" data-name="Grupo 148478" clip-path="url(#clip-path)">
       <path id="Trazado_207193" data-name="Trazado 207193" d="M423.142,262.39H186.3a14.173,14.173,0,0,1-14.173-14.173V217.329A14.173,14.173,0,0,1,186.3,203.156H423.142a14.173,14.173,0,0,1,14.173,14.173v30.888a14.173,14.173,0,0,1-14.173,14.173" fill="#122654"/>
     </g>
   </g>
-  <text id="Machine_Learning" data-name="Machine Learning" transform="translate(241.356 237.449)" fill="#fff" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">Machine Learning</tspan></text>
+  <text id="Machine_Learning" data-name="Machine Learning" transform="translate(241.356 237.449)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Machine Learning</tspan></text>
   <g id="Grupo_148481" data-name="Grupo 148481">
     <g id="Grupo_148480" data-name="Grupo 148480" clip-path="url(#clip-path)">
       <path id="Trazado_207194" data-name="Trazado 207194" d="M259.388,376.541H22.543A14.173,14.173,0,0,1,8.37,362.368V331.48a14.173,14.173,0,0,1,14.173-14.173H259.388a14.173,14.173,0,0,1,14.173,14.173v30.888a14.173,14.173,0,0,1-14.173,14.173" fill="#4ab7ce"/>
@@ -76,19 +76,19 @@
       <path id="Trazado_207198" data-name="Trazado 207198" d="M1006.733,429.683H879.468a14.173,14.173,0,0,1-14.173-14.173V384.622a14.173,14.173,0,0,1,14.173-14.173h127.265a14.173,14.173,0,0,1,14.173,14.173V415.51a14.173,14.173,0,0,1-14.173,14.173" fill="#4ab7ce"/>
     </g>
   </g>
-  <text id="Librería_Matplotlib" data-name="Librería Matplotlib" transform="translate(886.558 404.743)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Librería </tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-style="italic">Matplotlib</tspan></text>
+  <text id="Librería_Matplotlib" data-name="Librería Matplotlib" transform="translate(886.558 404.743)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Librería Matplotlib</tspan></text>
   <g id="Grupo_148491" data-name="Grupo 148491">
     <g id="Grupo_148490" data-name="Grupo 148490" clip-path="url(#clip-path)">
       <path id="Trazado_207199" data-name="Trazado 207199" d="M833.542,429.683H706.277A14.173,14.173,0,0,1,692.1,415.51V384.622a14.173,14.173,0,0,1,14.173-14.173H833.542a14.173,14.173,0,0,1,14.173,14.173V415.51a14.173,14.173,0,0,1-14.173,14.173" fill="#4ab7ce"/>
     </g>
   </g>
-  <text id="Librería_Numpy" data-name="Librería Numpy" transform="translate(722.578 404.743)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Librería </tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-style="italic">Numpy</tspan></text>
+  <text id="Librería_Numpy" data-name="Librería Numpy" transform="translate(722.578 404.743)" fill="#0c1d30" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Librería Numpy</tspan></text>
   <g id="Grupo_148493" data-name="Grupo 148493">
     <g id="Grupo_148492" data-name="Grupo 148492" clip-path="url(#clip-path)">
       <path id="Trazado_207200" data-name="Trazado 207200" d="M942.146,262.39H773.381a14.174,14.174,0,0,1-14.173-14.173V217.329a14.174,14.174,0,0,1,14.173-14.173H942.146a14.173,14.173,0,0,1,14.173,14.173v30.888a14.173,14.173,0,0,1-14.173,14.173" fill="#122654"/>
     </g>
   </g>
-  <text id="Fundamentos_en_Phyton" data-name="Fundamentos en Phyton" transform="translate(771.49 238.191)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" letter-spacing="-0.01em">F</tspan><tspan y="0">undamen</tspan><tspan y="0" letter-spacing="-0.009em">t</tspan><tspan y="0">os en </tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-style="italic">Phy</tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-style="italic" letter-spacing="-0.011em">t</tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-style="italic">on</tspan></text>
+  <text id="Fundamentos_en_Python" data-name="Fundamentos en Python" transform="translate(771.49 238.191)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" letter-spacing="-0.01em">F</tspan><tspan y="0">undamen</tspan><tspan y="0" letter-spacing="-0.009em">t</tspan><tspan y="0">os en Python</tspan></text>
   <g id="Grupo_148507" data-name="Grupo 148507">
     <g id="Grupo_148506" data-name="Grupo 148506" clip-path="url(#clip-path)">
       <path id="Trazado_207201" data-name="Trazado 207201" d="M761.51,370.449V313.372h200.5v57.077" fill="none" stroke="#5d5d5d" stroke-width="1.669"/>

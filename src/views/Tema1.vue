@@ -207,7 +207,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-          p(data-aos="fade-down").mb-4 Para reforzar sus conceptos sobre este tema se puede consultar el video de Alberola Oltra, J. M. (2021) operaciones básicas con Numpy, que se encuentra en el material complementario.
+          p(data-aos="fade-down").mb-4 Para reforzar sus conceptos sobre este tema, consulte el video de Alberola Oltra, J. M. (2021), operaciones básicas con numPy, que se encuentra en el material complementario.
 
 
     Separador
@@ -309,14 +309,18 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img12.svg', alt='' )
               .col-10
-                p Los #[b Dataframe:]  los dataframe son objetos de estructuras de datos similares a una tabla, donde las columnas corresponden a elementos de un mismo tipo y las filas son registros que pueden contener distintos tipos de datos.
+                p #[b Dataframe:]  los dataframe son objetos de estructuras de datos similares a una tabla, donde las columnas corresponden a elementos de un mismo tipo y las filas son registros que pueden contener distintos tipos de datos.
 
                 p Los dataframes poseen dos índices, uno para las columnas y otro para las filas. El acceso a los datos se puede realizar a través de estos. 
 
                 .row.align-items-center.mb-5
                   .col-lg-6
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img18.png', alt='' )
+                    .titulo-sexto.color-acento-contenido
+                      spam Dataframe en Pandas
+                  .col-lg-10
+                    .row.justify-content-center
+                      figure
+                        img(src='@/assets/curso/temas/tema1/img18.png', alt='' )
 
 
             .row.justify-content-center.mb-4(titulo="Creación de Dataframe")
@@ -379,7 +383,7 @@
                     | #[b columns:] retorna el nombre de las columnas del dataframe.
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
-                    | #[i Index:] retorna el nombre de las filas del dataframe.
+                    | #[b Index:] retorna el nombre de las filas del dataframe.
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
                     | #[b dtypes:] retorna el tipo de datos de la columna seleccionada del dataframe.

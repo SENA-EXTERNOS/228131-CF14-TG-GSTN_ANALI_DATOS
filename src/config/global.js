@@ -142,7 +142,7 @@ export default {
         'es un tipo de <i>Machine learning</i> en el cual se toma una muestra de datos que contiene etiquetas para, luego, a través de diferentes algoritmos, entrenar un modelo que sea capaz de predecir o clasificar una nueva entrada de datos que no esté en los datos originales o de muestra.',
     },
     {
-      termino: '<em>Clustering</em>>',
+      termino: '<em>Clustering</em>',
       significado:
         'es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados <em>clusters</em>.',
     },

@@ -97,9 +97,10 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img9.svg', alt='')                    
                   .col-lg-8
-                    
+                    h4 Recolección de datos                    
                 p Se inicia con la recopilación de los datos como materia prima para la creación de los modelos de #[i Machine Learning.]
 
           .tarjeta.p-3(x="33%" y="48%" numero=" ")
@@ -107,8 +108,10 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img10.svg', alt='')                    
                   .col-lg-8
+                    h4 Preprocesamiento de información
                 p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogéneos, entre otros. Tambien se llama fase de limpieza de datos.
           
           .tarjeta.p-3(x="50%" y="36%" numero=" ")
@@ -120,31 +123,35 @@
                       img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
                   .col-lg-8
                     h4 Entrenamiento del Modelo
-                p En esta fase se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a través de métricas como exactitud y la precisión.
+                p En esta fase se elige y entrena el modelo con los datos previamente preparados, para generar una función objetivo.
           
           .tarjeta.p-3(x="67%" y="48%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img12.svg', alt='')                    
                   .col-lg-8
-                p En esta fasese se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a traves de métricas como exactitud y la precisión.
+                    h4 Evaluación del modelo
+                p En esta fase se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a través de métricas como exactitud y la precisión.
           
           .tarjeta.p-3(x="74%" y="73%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
-                    
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img13.svg', alt='')                    
                   .col-lg-8
+                    h4 Implementación
                 p Fasel final del Machine Learning, donde el modelo se envía a producción, previo a pruebas de calidad.
 
     separador
     .row
       .col-xl-12
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 6. Regresión y Clasificación 
+      h2 6. Regresión y clasificación 
     
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical4.d-none.d-md-block.mb-md-0
@@ -167,7 +174,7 @@
                     .row.justify-content-center.align-items-center
                       .col-lg-10
                         .titulo-sexto.color-acento-contenido
-                          p #[i Ejemplo de un Algoritmo de Regresión]
+                          spam #[i Ejemplo de un Algoritmo de regresión]
                     figure
                       img(src='@/assets/curso/temas/tema2/img17.svg', alt='' )
                 p #[b Casos de uso.]  Los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios: evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en Google Colab, donde se requiere predecir el costo de un incidente de ciberseguridad, con base en los equipos que fueron afectados:
@@ -196,9 +203,8 @@
               .col-10
                 p Los algoritmos de clasificación dividen los datos en propiedades que se conocen de antemano, por ejemplo: documentos basados en el idioma, canciones clasificadas por género, camisas separadas por colores, entre otros. En este tipo de modelos los datos siempre deben estar etiquetados con propiedades que permitan que el algoritmo pueda establecer una clase en relación con sus características.
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-6
+                  .col-lg-6.MB-5
                     .row.justify-content-center.align-items-center
-                      .col-lg-10
 
                     figure
                       img(src='@/assets/curso/temas/tema2/img18.svg', alt='' )
@@ -442,39 +448,62 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img9.svg', alt='')                    
                   .col-lg-8
-                  p Iniciar el árbol de desición con una idea principal que se representa con un nodo root.
+                    h4 Plantear la idea
+                  p Iniciar el árbol de desición con una idea principal que se representa con un nodo #[i root].
           
           .tarjeta.p-3(x="31%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
+              .col-lg-12
+                .row.justify-content-center.align-items-center
                   .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img10.svg', alt='')                    
                   .col-lg-8
+                    h4 Agregar nodos 
                   p Agregar nodos de oportunidades o de decisiones luego de cada decisión.
           
           .tarjeta.p-3(x="50%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
+              .col-lg-12
+                .row.justify-content-center.align-items-center
                   .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img11.svg', alt='')                    
                   .col-lg-8
+                    h4 Expandir diagramas  
                   p Continuar agregando nodos de oportunidades y de decisiones al árbol, hasta haber abarcado todas las decisiones y resultados posibles.
           
           .tarjeta.p-3(x="68%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
+              .col-lg-12
+                .row.justify-content-center.align-items-center
                   .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img12.svg', alt='')                    
                   .col-lg-8
+                    h4 Calcular valores  
                   p Incluir datos cuantitativos. Los datos que se usan con más frecuencia en los árboles de decisiones son numéricos.
           
           .tarjeta.p-3(x="87%" y="58%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
+              .col-lg-12
+                .row.justify-content-center.align-items-center
                   .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img13.svg', alt='')                    
                   .col-lg-8
+                    h4 Evaluar resultados 
                   p Aceptar o declinar la decisión de acuerdo a los resultados del algoritmo.
 
     separador
@@ -540,7 +569,7 @@
       .col-md-2.bloque_vertical5.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 Las redes neuronales son algoritmos de inteligencia artificial, que procesan los datos de forma similar al cerebro humano. Hacen parte de una rama del aprendizaje de máquina llamado aprendizaje profundo o Deep learning. Las redes neuronales están formadas por nodos o neuronas que se conectan entre sí, para crear capas una debajo de la otra.
+          p.mb-0 Las redes neuronales son algoritmos de inteligencia artificial, que procesan los datos de forma similar al cerebro humano. Hacen parte de una rama del aprendizaje de máquina llamado aprendizaje profundo o #[i Deep learning.] Las redes neuronales están formadas por nodos o neuronas que se conectan entre sí, para crear capas una debajo de la otra.
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Casos de usos")( style="background-color: #1389f813;border:solid 4px #1389f82d")
