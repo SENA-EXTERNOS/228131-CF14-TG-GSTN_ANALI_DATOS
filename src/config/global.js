@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Profundización en <em>Data Science</em>',
     descripcionCurso:
-      'En este componente, se estudia el Data Science o ciencia de datos, con sus componentes para el procesamiento y análisis de los mismos; para este proceso, se aplican herramientas de tratamiento y manipulación de datos como Numpy, Pandas, y Matplotlib. Finalmente, con modelos de Machine learning se generan predicciones para orientar a las organizaciones en la formulación de estrategias y la toma de decisiones.',
+      'En este componente, se estudia el <i>Data Science</i> o ciencia de datos, con sus componentes para el procesamiento y análisis de los mismos; para este proceso, se aplican herramientas de tratamiento y manipulación de datos como Numpy, Pandas, y Matplotlib. Finalmente, con modelos de <i>Machine learning</i> se generan predicciones para orientar a las organizaciones en la formulación de estrategias y la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -195,7 +195,7 @@ export default {
     },
     {
       referencia:
-        'Bosch, A. Casas, J. & Lozano,T. (2019). <em>Deep learning: principios y fundamentos</em>. Editorial UOC.',
+        'Bosch, A. Casas, J. y Lozano,T. (2019). <em>Deep learning: principios y fundamentos</em>. Editorial UOC.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/126167',
     },

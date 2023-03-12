@@ -25,7 +25,7 @@
             .bloque-texto-g__texto--border.p-2.d-inline-block
               .bloque-texto-g__texto.p-4
                 .row.justify-content-center.align-items-center.mb-5                  
-                  p La Ciencia de datos o #[i “Data science”] se utiliza para el estudio de grandes volúmenes de datos, los cuales, en su mayoría, son generados en Internet y, por consiguiente, cuando se diligencia un formulario o se realizan búsquedas e interacciones con el contenido de una página web, se estarán dejando registros en una base de datos, que podrán ser procesados con Data science. 
+                  p La Ciencia de datos o #[i “Data science”] se utiliza para el estudio de grandes volúmenes de datos, los cuales, en su mayoría, son generados en Internet y, por consiguiente, cuando se diligencia un formulario o se realizan búsquedas e interacciones con el contenido de una página web, se estarán dejando registros en una base de datos, que podrán ser procesados con #[i Data science]. 
                   br
                   br
                 .row.justify-content-center.align-items-center.mb-5
@@ -40,8 +40,8 @@
 
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1. #[i Numpy]
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 #[i Numpy]
 
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical2.d-none.d-md-block.mb-md-0
@@ -139,7 +139,7 @@
                 ul.lista-ul
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[em ndim]: devuelve la cantidad de dimensiones de un arreglo.
+                    |#[em #[b ndim]]: devuelve la cantidad de dimensiones de un arreglo.
                   .row.align-items-center.mb-3                                  
                     .col-lg-6(style="background-color:#ffffff")
                       figure
@@ -147,7 +147,7 @@
 
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[em shape]: devuelve las dimensiones del arreglo en forma de tupla.
+                    |#[em #[b shape]]: devuelve las dimensiones del arreglo en forma de tupla.
                   .row.align-items-center.mb-3                                  
                     .col-lg-6(style="background-color:#ffffff")
                       figure
@@ -155,7 +155,7 @@
                   
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[em size]: devuelve la cantidad de elementos del arreglo.
+                    |#[em #[b size]]: devuelve la cantidad de elementos del arreglo.
                   .row.align-items-center.mb-3                                  
                     .col-lg-6(style="background-color:#ffffff")
                       figure
@@ -163,7 +163,7 @@
                   
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    |#[em dtype]: devuelve el tipo de datos que contiene el arreglo.
+                    |#[em #[b type]]: devuelve el tipo de datos que contiene el arreglo.
                   .row.align-items-center.mb-3                                  
                     .col-lg-6(style="background-color:#ffffff")
                       figure
@@ -204,18 +204,18 @@
                     .col-lg-4(style="background-color:#ffffff")
                       figure
                       img(src='@/assets/curso/temas/tema1/img8_4.svg', alt='' )
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-          p(data-aos="fade-down").mb-4 Para reforzar sus conceptos sobre este tema, consulte el video de Alberola Oltra, J. M. (2021), operaciones básicas con numPy, que se encuentra en el material complementario.
+          p.mb-4 Para reforzar sus conceptos sobre este tema, consulte el video de Alberola Oltra, J. M. (2021), operaciones básicas con numPy, que se encuentra en el material complementario.
 
 
     Separador
 
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2. #[em Pandas ]
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 #[em Pandas ]
 
     .row.justify-content-center.mb-5
       .col-xl-4
@@ -259,7 +259,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.svg', alt='' )
               .col-10
-                p Pandas soporta varias arquitecturas de datos, entre las que se destacan las series y los Dataframes. A continuación, se detalla cada una de ellas:
+                p Pandas soporta varias arquitecturas de datos, entre las que se destacan las series y los dataframes. A continuación, se detalla cada una de ellas:
                 ul.lista-ul
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:-2px")
@@ -323,7 +323,7 @@
                         img(src='@/assets/curso/temas/tema1/img18.png', alt='' )
 
 
-            .row.justify-content-center.mb-4(titulo="Creación de Dataframe")
+            .row.justify-content-center.mb-4(titulo="Creación de dataframe")
               .col-2
                 figure
                   img(src='@/assets/curso/temas/tema1/img13.svg', alt='' )
@@ -332,7 +332,7 @@
                 ul.lista-ul
                   li(style="display:inline-block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
-                    | #[b Creación de Dataframe por diccionario de listas:] Los dataframe por diccionarios, retornan un objeto, donde las columnas son los valores del diccionario y la lista de filas debe tener el mismo tamaño de las columnas. A continuación, se presenta un ejemplo para mayor claridad:
+                    | #[b Creación de dataframe por diccionario de listas:] Los dataframe por diccionarios, retornan un objeto, donde las columnas son los valores del diccionario y la lista de filas debe tener el mismo tamaño de las columnas. A continuación, se presenta un ejemplo para mayor claridad:
                   .row.align-items-center.mb-3                                  
                     .col-lg-10(style="background-color:#ffffff")
                       figure
@@ -362,7 +362,7 @@
                       figure
                         img(src='@/assets/curso/temas/tema1/img22.png', alt='' )
 
-            .row.justify-content-center.mb-4(titulo="Atributos de un Dataframe")
+            .row.justify-content-center.mb-4(titulo="Atributos de un dataframe")
               .col-2
                 figure
                   img(src='@/assets/curso/temas/tema1/img14.svg', alt='' )
@@ -374,7 +374,7 @@
                     | #[b info():] este método retorna información referente a la estructura del dataframe, como: cantidad de filas, columnas, índices, entre otros.
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
-                    | #[b shape:*] retorna la cantidad de filas y columnas.
+                    | #[b shape:] retorna la cantidad de filas y columnas.
                   li(style="display:block")
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1;top:0px")
                     | #[b size]: retorna la cantidad de elementos del dataframe.
@@ -418,8 +418,8 @@
 
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3. Matplotlib
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Matplotlib
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -531,7 +531,6 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img35.png', alt='')              
           .col-md-5.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
 
             figure
               img(src='@/assets/curso/temas/tema1/img36.png', alt='')
@@ -544,8 +543,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 4.	Aprendizaje supervisado
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Aprendizaje supervisado
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
@@ -606,8 +605,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5. Aprendizaje no supervisado
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Aprendizaje no supervisado
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5

@@ -54,18 +54,18 @@
           p.mb-0 En la siguiente figura, se ilustra el ciclo de un modelo de #[i Machine learning], donde se inicia con el suministro de los datos; luego se aplica el modelo de #[i Machine learning] para generar una predicción; y finalmente, se actualiza para entrar en una nueva iteración. 
 
     .row.justify-content-center.align-items-center.mb-5
+      .titulo-sexto.color-acento-contenido.my-4
+        h5 Figura 2
+        br
+        span #[em Ciclo de un modelo de Machine learning]
       .col-lg-6
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 2
-          br
-          span #[em Ciclo de un modelo de Machine learning]
         figure
             img(src='@/assets/curso/temas/tema2/img6.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-          p(data-aos="fade-down").mb-4 Antes de entrar en detalle con los modelos de #[i Machine learning], es pertinente mencionar a una de las librerías más populares de Data Science en Python, llamada Scikit-learn, la cual contiene algoritmos de clasificación, regresión y agrupamiento. Además, es #[i open source] y de fácil aprendizaje, razón por la cual se ha convertido en la favorita de los científicos de datos.
+          p(data-aos="fade-down").mb-4 Antes de entrar en detalle con los modelos de #[i Machine learning], es pertinente mencionar a una de las librerías más populares de #[i Data Science] en Python, llamada Scikit-learn, la cual contiene algoritmos de clasificación, regresión y agrupamiento. Además, es #[i open source] y de fácil aprendizaje, razón por la cual se ha convertido en la favorita de los científicos de datos.
 
 
     .row.justify-content-center
@@ -92,7 +92,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='') 
-          .tarjeta.p-3(x="26%" y="73%" numero=" ")            
+          .tarjeta.p-3(x="30%" y="67.5%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -103,7 +103,7 @@
                     h4 Recolección de datos                    
                 p Se inicia con la recopilación de los datos como materia prima para la creación de los modelos de #[i Machine Learning.]
 
-          .tarjeta.p-3(x="33%" y="48%" numero=" ")
+          .tarjeta.p-3(x="36%" y="48%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -114,7 +114,7 @@
                     h4 Preprocesamiento de información
                 p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogéneos, entre otros. Tambien se llama fase de limpieza de datos.
           
-          .tarjeta.p-3(x="50%" y="36%" numero=" ")
+          .tarjeta.p-3(x="50%" y="40%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -125,7 +125,7 @@
                     h4 Entrenamiento del Modelo
                 p En esta fase se elige y entrena el modelo con los datos previamente preparados, para generar una función objetivo.
           
-          .tarjeta.p-3(x="67%" y="48%" numero=" ")
+          .tarjeta.p-3(x="65%" y="48%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -136,7 +136,7 @@
                     h4 Evaluación del modelo
                 p En esta fase se separan los datos en prueba y entrenamiento y se comparan los resultados del modelo a través de métricas como exactitud y la precisión.
           
-          .tarjeta.p-3(x="74%" y="73%" numero=" ")
+          .tarjeta.p-3(x="70.5%" y="67.5%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -145,13 +145,13 @@
                       img(src='@/assets/curso/temas/tema2/img13.svg', alt='')                    
                   .col-lg-8
                     h4 Implementación
-                p Fasel final del Machine Learning, donde el modelo se envía a producción, previo a pruebas de calidad.
+                p Fasel final del #[i Machine Learning], donde el modelo se envía a producción, previo a pruebas de calidad.
 
     separador
     .row
       .col-xl-12
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 6. Regresión y clasificación 
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Regresión y clasificación 
     
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical4.d-none.d-md-block.mb-md-0
@@ -171,11 +171,7 @@
                 p Los algoritmos de regresión son un tipo de aprendizaje inductivo que predice valores numéricos a partir de un dominio suministrado de atributos con valores continuos; estos se podrán describir a través de una función hipótesis para la predicción de eventos futuros. Es importante mencionar que los algoritmos de regresión no devuelven una predicción exacta sobre los eventos futuros, sino que entregan una aproximación. (#[i Bosch, et al]., 2019)
                 .row.justify-content-center.align-items-center.mb-5
                   .col-lg-6
-                    .row.justify-content-center.align-items-center
-                      .col-lg-10
-                        .titulo-sexto.color-acento-contenido
-                          spam #[i Ejemplo de un Algoritmo de regresión]
-                    figure
+                    figure.mt-3
                       img(src='@/assets/curso/temas/tema2/img17.svg', alt='' )
                 p #[b Casos de uso.]  Los algoritmos de regresión pueden utilizarse con éxito en los siguientes escenarios: evaluar tendencias y estimaciones de ventas, analizar elasticidad en los precios de productos, analizar datos deportivos, evaluar riesgos en una compañía de seguros, entre otros. Para profundizar en la implementación de un modelo de regresión, se plantea un ejercicio desarrollado en Google Colab, donde se requiere predecir el costo de un incidente de ciberseguridad, con base en los equipos que fueron afectados:
                 
@@ -192,7 +188,7 @@
                             .col.mb-3.mb-sm-0
                               .row.justify-content-center.mb-1
                                 .col
-                                  a.boton.boton--b(:href="obtenerLink('/downloads/Anexo_01_Regresion.pdf')" target="_blank")
+                                  a.boton.boton--b(:href="obtenerLink('/downloads/anexos/anexo_01_Regresion.pdf')" target="_blank")
                                     span(style="color:#000000")  Descargar
                                     i.fas.fa-download(style="color:#000000")
 
@@ -224,7 +220,7 @@
                             .col.mb-3.mb-sm-0
                               .row.justify-content-center.mb-1
                                 .col
-                                  a.boton.boton--b(:href="obtenerLink('/downloads/Anexo_02_Clasificacion.pdf')" target="_blank")
+                                  a.boton.boton--b(:href="obtenerLink('/downloads/anexos/anexo_02_Clasificacion.pdf')" target="_blank")
                                     span(style="color:#000000")  Descargar
                                     i.fas.fa-download(style="color:#000000")
                
@@ -232,8 +228,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.	K vecinos más cercanos (KNN) 
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 K vecinos más cercanos (KNN) 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
@@ -262,21 +258,22 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-9
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           br
           span #[em Ventajas y desventajas del algoritmo]
+
       .col-lg-9            
         .tabla-a.color-acento-contenido 
           table
             thead
               tr
                 th Ventajas
-                th Desverntajas
+                th Desventajas
             tbody
               tr
-                td Sencillo y efectivo
+                td Sencillo y efectivo.
                 td No genera un modelo, lo que reduce la capacidad de entender la relación de las propiedades de la clase.
               tr
                 td No hace suposiciones sobre la distribución de datos subyacente.
@@ -304,8 +301,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 8.	Máquina de soporte vectorial (SVM):
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Máquina de soporte vectorial (SVM):
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -367,8 +364,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 9.	Árboles de decisión 
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Árboles de decisión 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -387,7 +384,7 @@
             p(data-aos="fade-down").mb-4 El principio básico de este algoritmo es la aplicación del enfoque “divide y vencerás”; dado que separa los datos en varios subconjuntos que posteriormente son divididos nuevamente en subconjuntos más pequeños y así sucesivamente hasta que se cumple con el objetivo de obtener datos homogéneos o el criterio de identificación.
             p(data-aos="fade-down").mb-4 A continuación, se detallan algunas ventajas y desventajas de esta técnica:
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-6
+            .col-lg-9
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 2
                 br
@@ -399,7 +396,7 @@
                   thead
                     tr
                       th Ventajas
-                      th Desverntajas
+                      th Desventajas
                   tbody
                     tr
                       td Requieren poca preparación de los datos para la implementación del modelo.
@@ -432,18 +429,12 @@
         p(data-aos="fade-right") El siguiente esquema favorece la comprensión del proceso de creación de un árbol de decisión. Explore cada uno de sus puntos interactivos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3
-          br
-          span #[em Creación de árbol de decisión]
-
-        
-        ImagenInfografica.color-primario.mb-5
+      .col-lg-10        
+        ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img26.svg', alt='') 
-          .tarjeta.p-3(x="12.5%" y="58%" numero=" ")            
+          .tarjeta.p-3(x="12.5%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -454,7 +445,7 @@
                     h4 Plantear la idea
                   p Iniciar el árbol de desición con una idea principal que se representa con un nodo #[i root].
           
-          .tarjeta.p-3(x="31%" y="58%" numero=" ")            
+          .tarjeta.p-3(x="31%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -467,7 +458,7 @@
                     h4 Agregar nodos 
                   p Agregar nodos de oportunidades o de decisiones luego de cada decisión.
           
-          .tarjeta.p-3(x="50%" y="58%" numero=" ")            
+          .tarjeta.p-3(x="50%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -480,7 +471,7 @@
                     h4 Expandir diagramas  
                   p Continuar agregando nodos de oportunidades y de decisiones al árbol, hasta haber abarcado todas las decisiones y resultados posibles.
           
-          .tarjeta.p-3(x="68%" y="58%" numero=" ")            
+          .tarjeta.p-3(x="68.5%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -493,7 +484,7 @@
                     h4 Calcular valores  
                   p Incluir datos cuantitativos. Los datos que se usan con más frecuencia en los árboles de decisiones son numéricos.
           
-          .tarjeta.p-3(x="87%" y="58%" numero=" ")            
+          .tarjeta.p-3(x="87.5%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
               .col-lg-12
                 .row.justify-content-center.align-items-center
@@ -504,17 +495,17 @@
                       img(src='@/assets/curso/temas/tema2/img13.svg', alt='')                    
                   .col-lg-8
                     h4 Evaluar resultados 
-                  p Aceptar o declinar la decisión de acuerdo a los resultados del algoritmo.
+                  p Aceptar o declinar la decisión de acuerdo con los resultados del algoritmo.
 
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 10.	#[em Clustering ]
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 #[em Clustering ]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El algoritmo #[i clustering] o de agrupamiento es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[i clusters]. Los objetos o datos que contienen los clusters, comparten atributos similares entre sí, pero distintos a los datos de otros #[i clusters].
+        p(data-aos="fade-right") El algoritmo #[i clustering] o de agrupamiento es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[i clusters]. Los objetos o datos que contienen los #[i clusters], comparten atributos similares entre sí, pero distintos a los datos de otros #[i clusters].
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -529,12 +520,12 @@
           img(src='@/assets/curso/temas/tema2/img27.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4
-          br
-          span #[i Clustering]
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 3
+        br
+        span #[i Clustering]
 
+      .col-lg-6
         figure
           img(src='@/assets/curso/temas/tema2/img28.png', alt='')
     
@@ -562,8 +553,8 @@
     separador
     .row
       .col-xl-12       
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 11. Redes neuronales #[em Deep learning]
+    .titulo-tercero(data-aos="zoom-in-left")
+      h2 Redes neuronales #[em Deep learning]
 
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical5.d-none.d-md-block.mb-md-0
@@ -575,7 +566,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Casos de usos")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p algunos de los campos en los cuales se utiliza esta técnica son:
+            p Algunos de los campos en los cuales se utiliza esta técnica son:
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#0F2771")
@@ -621,7 +612,7 @@
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img32.png', alt='')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Deep learning</em> vs <em>Machine learning</em>")( style="background-color: #1389f813;border:solid 4px #1389f82d")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Deep learning</em> vs <br><em>Machine learning</em>")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Para que los modelos de #[i Machine learning] funcionen correctamente, es necesario la intervención humana; los científicos de datos se encargan, de forma manual, de realizar los procesos de extracción, transformación y carga de los datos ETL. Por otro lado, con el #[i Deep learning], el científico de datos solamente le suministra los datos al modelo sin procesarlos, porque la red de este se encargará de obtener los atributos de los datos por sí sola, e irá aprendiendo de forma independiente.
@@ -630,10 +621,6 @@
             figure
               img(src='@/assets/curso/temas/tema2/img33.png', alt='')
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-          p(data-aos="fade-down").mb-4 Para complementar la información explorar el libro en formato PDF “redes neuronales artificiales” del autor Repetur. (2019). que se encuentra en el material complementario.
 
     .row.justify-content-center
       .col-lg-12
@@ -643,14 +630,11 @@
               img(src="@/assets/curso/temas/tema2/img34.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
-                .col.mb-3.mb-sm-0
-                  .row.justify-content-center.mb-1
-                    .col
-                      a.boton.boton--b(:href="('/downloads/Codigos.rar')" target="_blank")
-                        span(style="color:#000000")  Descargar
-                        i.fas.fa-download(style="color:#000000")
+                p Profundice y complete la información, explorando el PDF #[b “Redes neuronales artificiales”] que se encuentra en el material complementario.
+
+    .row.my5
+      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
 </template>
 
 <script>
