@@ -51,7 +51,7 @@
       .col-md-2.bloque_vertical3.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 En la siguiente figura, se ilustra el ciclo de un modelo de #[i Machine learning], donde se inicia con el suministro de los datos; luego se aplica el modelo de #[i Machine learning] para generar una predicción; y finalmente, se actualiza para entrar en una nueva iteración. 
+          p.mb-0 En la siguiente figura, se ilustra el ciclo de un modelo de <i>Machine learning</i>, donde se inicia con el suministro de los datos; luego se aplica el modelo de <i>Machine learning</i> para generar una predicción y, finalmente, se actualiza para entrar en una nueva iteración.
 
     .row.justify-content-center.align-items-center.mb-5
       .titulo-sexto.color-acento-contenido.my-4
@@ -412,7 +412,7 @@
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-7.mb-4.mb-md-0
             h3 Casos de usos
-            p(data-aos="fade-down").mb-4 Algunos de los campos en los cuales se utilizan esta técnica son:
+            p(data-aos="fade-down").mb-4 Algunos de los campos en los cuales se utiliza esta técnica son:
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#FECA2E")
@@ -426,7 +426,7 @@
     .row.justify-content-center.align-items-center.my-5
       .col-lg-12
         p(data-aos="fade-right") Los árboles de decisión, son ampliamente usados en la solución de problemas cotidianos, porque permiten comparar acciones y resultados, basados en la relación costo/beneficio.
-        p(data-aos="fade-right") El siguiente esquema favorece la comprensión del proceso de creación de un árbol de decisión. Explore cada uno de sus puntos interactivos:
+        p(data-aos="fade-right") A continuación, explore cada uno de sus puntos interactivos de la infografía para una mejor comprensión del tema:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10        
@@ -505,7 +505,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El algoritmo #[i clustering] o de agrupamiento es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados #[i clusters]. Los objetos o datos que contienen los #[i clusters], comparten atributos similares entre sí, pero distintos a los datos de otros #[i clusters].
+        p(data-aos="fade-right") El algoritmo <i>clustering</i> o de agrupamiento, es un método de aprendizaje no supervisado que agrupa los datos en subconjuntos llamados <i>clusters</i>. Los objetos o datos que contienen los <i>clusters</i>, comparten atributos similares entre sí, pero distintos a los datos de otros <i>clusters</i>.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -518,6 +518,8 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img27.png', alt='')
+
+    p.mb-4 Analice la siguiente figura:
 
     .row.justify-content-center.align-items-center.mb-5
       .titulo-sexto.color-acento-contenido
@@ -535,19 +537,19 @@
           img(src='@/assets/curso/temas/tema2/img29.svg', alt='')
       .col-lg-9
         p(data-aos="fade-right") Casos de usos: algunos de los campos en los cuales se utiliza esta técnica, son:
-        ul.lista-ul
+        ul
+          li.mb-2
+            i.fas.fa-check(style="color:#FECA2E")
+            | Investigación y segmentación de mercado para fidelización y clasificación de clientes.
+          li.mb-2
+            i.fas.fa-check(style="color:#FECA2E")
+            | Reconocimiento de patrones. 
+          li.mb-2
+            i.fas.fa-check(style="color:#FECA2E")
+            | Detección de fraudes a través de comportamientos anormales en los datos.
           li
             i.fas.fa-check(style="color:#FECA2E")
-            |Investigación y segmentación de mercado para fidelización y clasificación de clientes.
-          li
-            i.fas.fa-check(style="color:#FECA2E")
-            |Reconocimiento de patrones. 
-          li
-            i.fas.fa-check(style="color:#FECA2E")
-            |Detección de fraudes a través de comportamientos anormales en los datos.
-          li
-            i.fas.fa-check(style="color:#FECA2E")
-            |Procesamiento de imágenes.
+            | Procesamiento de imágenes.
 
 
     separador

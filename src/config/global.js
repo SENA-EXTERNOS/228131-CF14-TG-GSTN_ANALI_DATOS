@@ -137,7 +137,7 @@ export default {
         'el aprendizaje no supervisado es una categoría del <em>Machine learning</em> que encuentra o infiere por sí mismo estructuras y patrones en los datos sin que ellos estén etiquetados, clasificados y categorizados.',
     },
     {
-      termino: 'Aprendizaje Supervisado',
+      termino: 'Aprendizaje supervisado',
       significado:
         'es un tipo de <i>Machine learning</i> en el cual se toma una muestra de datos que contiene etiquetas para, luego, a través de diferentes algoritmos, entrenar un modelo que sea capaz de predecir o clasificar una nueva entrada de datos que no esté en los datos originales o de muestra.',
     },
@@ -195,7 +195,7 @@ export default {
     },
     {
       referencia:
-        'Bosch, A. Casas, J. y Lozano,T. (2019). <em>Deep learning: principios y fundamentos</em>. Editorial UOC.',
+        'Bosch, A., Casas, J. y Lozano,T. (2019). <em>Deep learning: principios y fundamentos</em>. Editorial UOC.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/126167',
     },

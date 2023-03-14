@@ -41,7 +41,7 @@
     .row
       .col-xl-12       
     .titulo-tercero(data-aos="zoom-in-left")
-      h2 #[i Numpy]
+      h2 #[i NumPy]
 
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical2.d-none.d-md-block.mb-md-0
@@ -215,7 +215,7 @@
     .row
       .col-xl-12       
     .titulo-tercero(data-aos="zoom-in-left")
-      h2 #[em Pandas ]
+      h2 Pandas 
 
     .row.justify-content-center.mb-5
       .col-xl-4
@@ -482,12 +482,12 @@
             figure
               img(src='@/assets/curso/temas/tema1/img27.png', alt='')          
           .col-md-8
-            p La función scatter(a, b) crea un diagrama de puntos, donde las coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y”, respectivamente:
+            p La función scatter(a, b) crea un diagrama de puntos, donde la coordenada “a” y “b” forman los puntos del plano para el eje “x” y el eje “y”, respectivamente:
       
       .py-3.py-md-4(titulo="Gráfico de líneas")
         .row        
           .col-md-7          
-            p La función plot(a, b) crea una figura geométrica plana, donde las coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente y luego se conectan los segmentos consecutivamente:
+            p La función plot(a, b) crea una figura geométrica plana, donde la coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente y luego se conectan los segmentos consecutivamente:
             .row
               .col-lg-8
                 figure
@@ -499,7 +499,7 @@
       .py-3.py-md-4(titulo="Gráfico de barras verticales")
         .row        
           .col-md-7          
-            p La función bar(a, b) crea un diagrama de barras, donde las coordenadas “a” es la posición de las barras en el eje “x” y “b” es la altura de las barras en el eje “y”.
+            p La función bar(a, b) crea un diagrama de barras, donde la coordenada “a” es la posición de las barras en el eje “x” y “b” es la altura de las barras en el eje “y”.
             .row
               .col-lg-8
                 figure
