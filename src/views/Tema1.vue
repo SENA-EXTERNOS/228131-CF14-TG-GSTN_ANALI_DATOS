@@ -487,7 +487,7 @@
       .py-3.py-md-4(titulo="Gráfico de líneas")
         .row        
           .col-md-7          
-            p La función plot(a, b) crea una figura geométrica plana, donde la coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente y luego se conectan los segmentos consecutivamente:
+            p La función plot(a, b) crea una figura geométrica plana, donde las coordenadas “a” y “b” forman los puntos del plano para el eje “x” y el eje “y” respectivamente y luego se conectan los segmentos consecutivamente:
             .row
               .col-lg-8
                 figure

@@ -112,7 +112,7 @@
                       img(src='@/assets/curso/temas/tema2/img10.svg', alt='')                    
                   .col-lg-8
                     h4 Preprocesamiento de información
-                p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogéneos, entre otros. Tambien se llama fase de limpieza de datos.
+                p Se trabajan los desafíos de: datos incompletos, datos sin formato, datos heterogéneos, entre otros. También se llama fase de limpieza de datos.
           
           .tarjeta.p-3(x="50%" y="40%" numero=" ")
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
@@ -443,7 +443,7 @@
                       img(src='@/assets/curso/temas/tema2/img9.svg', alt='')                    
                   .col-lg-8
                     h4 Plantear la idea
-                  p Iniciar el árbol de desición con una idea principal que se representa con un nodo #[i root].
+                  p Iniciar el árbol de decisión con una idea principal que se representa con un nodo #[i root].
           
           .tarjeta.p-3(x="31%" y="64%" numero=" ")            
             .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
