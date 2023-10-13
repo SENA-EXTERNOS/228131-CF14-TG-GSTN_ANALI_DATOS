@@ -326,7 +326,7 @@
 
             figure
               img(src='@/assets/curso/temas/tema2/img22.svg', alt='')
-      .py-3.py-md-4(titulo="Casos de usos")
+      .py-3.py-md-4(titulo="Casos de uso")
         .row        
           .col-md-7          
             p Algunos de los campos en los cuales se utiliza esta técnica, son:
@@ -411,7 +411,7 @@
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-7.mb-4.mb-md-0
-            h3 Casos de usos
+            h3 Casos de uso
             p(data-aos="fade-down").mb-4 Algunos de los campos en los cuales se utiliza esta técnica son:
             ul.lista-ul
               li
@@ -536,7 +536,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img29.svg', alt='')
       .col-lg-9
-        p(data-aos="fade-right") Casos de usos: algunos de los campos en los cuales se utiliza esta técnica, son:
+        p(data-aos="fade-right") Casos de uso: algunos de los campos en los cuales se utiliza esta técnica, son:
         ul
           li.mb-2
             i.fas.fa-check(style="color:#FECA2E")
@@ -565,7 +565,7 @@
           p.mb-0 Las redes neuronales son algoritmos de inteligencia artificial, que procesan los datos de forma similar al cerebro humano. Hacen parte de una rama del aprendizaje de máquina llamado aprendizaje profundo o #[i Deep learning.] Las redes neuronales están formadas por nodos o neuronas que se conectan entre sí, para crear capas una debajo de la otra.
 
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Casos de usos")( style="background-color: #1389f813;border:solid 4px #1389f82d")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Casos de uso")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Algunos de los campos en los cuales se utiliza esta técnica son:

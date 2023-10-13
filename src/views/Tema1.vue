@@ -159,7 +159,7 @@
                   .row.align-items-center.mb-3                                  
                     .col-lg-6(style="background-color:#ffffff")
                       figure
-                      img(src='@/assets/curso/temas/tema1/img7_3.svg', alt='' )
+                        img(src='@/assets/curso/temas/tema1/img7_3-.svg', alt='' ).img-80
                   
                   li
                     i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
@@ -177,7 +177,7 @@
                 p NumPy se puede integrar con funciones que facilitan la creación de arreglos, entre las cuales se encuentran las siguientes: 
                 ul.lista-ul
                   li
-                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1; top: -3px;")
                     | #[b Random:] permite crear un array con valores aleatorios.
                   .row.align-items-center.mb-3                                  
                     .col-lg-8(style="background-color:#ffffff")
@@ -185,7 +185,7 @@
                       img(src='@/assets/curso/temas/tema1/img8_1.svg', alt='' )
                   p Como se puede evidenciar, se creó un arreglo de 2 dimensiones, con 2 filas y 4 columnas de números aleatorios.
                   li
-                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
+                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1; top: -3px;")
                     | #[b Zeros:] esta función devuelve un array con elementos en “cero”.
                   p #[b Ejemplo 1:] se creará un arreglo unidimensional de 5 elementos.
                   .row.align-items-center.mb-3                                  
@@ -198,8 +198,8 @@
                       figure
                         img(src='@/assets/curso/temas/tema1/img8_3.svg', alt='' )
                   li
-                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1")
-                    | #[b Arrange:] esta función de numPy es utilizada para retornar un arreglo con números enteros que estén en un intervalo, donde el primer parámetro indica el inicio con valores mayores o iguales (>=) y el segundo parámetro el final, con valores menores (<). 
+                    i.fas.fa-circle(style="font-size:10px;color:#4DD0E1; top: -3px;")
+                    | #[b Arange:] esta función de numPy es utilizada para retornar un arreglo con números enteros que estén en un intervalo, donde el primer parámetro indica el inicio con valores mayores o iguales (>=) y el segundo parámetro el final, con valores menores (<). 
                   .row.align-items-center.mb-3                                  
                     .col-lg-4(style="background-color:#ffffff")
                       figure
